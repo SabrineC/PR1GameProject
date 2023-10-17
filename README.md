@@ -5,8 +5,8 @@ We will also be using Trello for planning and allocating tasks to the team membe
 We will be using Discord for meetings and general communication.
 
 Team Members:
-Asadullah Anfishi
-Patrice Williams
-Sabrine Charkaui
+Asadullah Anfishi,
+Patrice Williams,
+Sabrine Charkaui,
 Sirine Charkaui
 
