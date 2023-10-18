@@ -1,0 +1,5772 @@
+fileFormatVersion: 2
+guid: 025fc7494e23b7f4588946852d46c558
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tribeleader_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1794
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b531ee2f3196ba4f9a26d302f3980bf
+      internalID: -643205285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1794
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2999c648c6c9f042a1634b62ed69ee1
+      internalID: -1417629258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1794
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f03630977f8df4a9ccfab26b3dcfd6
+      internalID: 1257716191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1794
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029fec04a43f9914ba3dc59629600a0d
+      internalID: 668348327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1794
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5ec466e84cbe43aaf5394a8756661
+      internalID: -1828944506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1794
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6050fc9604fa64c44a6a6d8ba4216927
+      internalID: -1887897184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1794
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbc43ca9ee1064fac324864152ddf0
+      internalID: 1186965670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1730
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865d8ff26e09d7240b4f3d85ec96a3ad
+      internalID: 2144738528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1730
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc183cf5eacd7a4a9f795da9f8f8ba5
+      internalID: -1650354439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1730
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1969b71c7dda5541be3bc79a989683e
+      internalID: -1208013584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1730
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46c1ceb4ed2f264380cef8cbbee284d
+      internalID: 1396058119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1730
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d1718a53421b448806d362043f4fc4
+      internalID: -1397846769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1730
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec71c6d1fc86a7a408ce88929bc50bae
+      internalID: -1854489576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1730
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8027ea53a7a294696c9149dcbac357
+      internalID: 41606891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1666
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91314de6cd88b44fbab1f1162c0a5b4
+      internalID: 987000240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1666
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029053694e6ffd4eb38bb10514907b6
+      internalID: -217667146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1666
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac05764c043594d912ca7cefc1ad2c
+      internalID: -969709391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1666
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dc584468f3f4d489d291c2c5e95b1c
+      internalID: -1070337302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1666
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb687ed97a50bf4bb804898ce637b35
+      internalID: -682110866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1666
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdb5352c1482334a8a1d58d669cce44
+      internalID: -2125759255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1666
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d463f08f84cf3a4faf38df18661cf49
+      internalID: -1703215586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1602
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9096651639ec6874d8649b85099d37e6
+      internalID: -1471008425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1602
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c742ca41053bf1e4a8bf77a19a4a533c
+      internalID: 1351104775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1602
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a688e48a84054aa62b87dc20403aa
+      internalID: 1236136720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1602
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8e3983451c8ae4d8c86c5174acdd96
+      internalID: 40555335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1602
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc02cacbed9a69347b9d6e539723f0a7
+      internalID: 290373787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1602
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fadb0f14b74094b8aad73894886cdd
+      internalID: -956759886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1602
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523648419755b0b4ea63bf4769513ebf
+      internalID: -791282424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1538
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab27241830e1f9469e3530164cfd65f
+      internalID: -660248811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1536
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5a0e626e2780e4c9060e43079f7087
+      internalID: -1132808672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1536
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde8037df3907a640979d44dc57d153c
+      internalID: 615567719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1536
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d236f93c5e8576e4bb6b240ddf3763ed
+      internalID: 385107110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_32
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1536
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d3773064fbc946a63eb4ffcf49976
+      internalID: 1927367129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1536
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bd31d92400d954c858ab20bcf61a85
+      internalID: -1938254862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1536
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e27b8d9a5ceaa046a185fa0fab817ac
+      internalID: -1461520779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_35
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1536
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3c7873056b3d84ab89778782777801
+      internalID: -1162948846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1474
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb972a1c9951a1845b7a89104e73ce14
+      internalID: -1846957520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1474
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfd0bfde8fadd44cb70fdeb6844be2a
+      internalID: -444711356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1474
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd63f6e2e574d542a0cf3e8efe769eb
+      internalID: -665183542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1474
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26daa8180e456f541a324b3ac260791d
+      internalID: 35364347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1474
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01ec883d0f1834b93981df768b6908
+      internalID: -1578919005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1474
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83594c9067a7bab458a2f5170b3015ad
+      internalID: -2013217017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1474
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4230e7e6c3885c6439d631ee83bcce3a
+      internalID: 1130094119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1474
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434705044a5f0ee44b70aedce0c1bd8e
+      internalID: 1289733418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1410
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc50b04056edfb4b8bcbdfe30944bc0
+      internalID: -2135428373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1411
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28889e89f78c104f89a87281ff01cee
+      internalID: -580795065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1411
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2396d3e6d7b675c4b996b231b9aa32b2
+      internalID: 121254603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1411
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a417e238de47743ba1b1d9845abe0e
+      internalID: 67929860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_48
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1411
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b86e6496f8394643b70c5b7e517f258
+      internalID: -969492200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1411
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072bfd3af5df4064f94787d058b4b8a3
+      internalID: 427939465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1411
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384f92df64863f47b03816a5ef6a3c3
+      internalID: -1041265337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1411
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878e176dee70604ba28fc98dffaacd0
+      internalID: -1648230058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_52
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1346
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b53ab6b54e1790469e3fc99c6f4f57e
+      internalID: 1228462374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1346
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb36527c9f16f4bb53bfeabe5311b6
+      internalID: 1429539459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1346
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f60697dc09314439053b68678c4c36
+      internalID: 772118303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1346
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f82519f6948b94cbfa5185fea9c8b2
+      internalID: 364934434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1346
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716551ea2fa44d14ca609bafb2e022cc
+      internalID: 1701992254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1346
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbc0a3f1c22a2749bb6b8377c807776
+      internalID: 1174901394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1346
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84da0feefd9688c47bb47a99bca591fc
+      internalID: -1394525753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1346
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c183a5fbc0b449876b0c9164818f5
+      internalID: -552980554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1283
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bd1027ce167d140bd16681e668ff3e
+      internalID: 1392941026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1283
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a364a1f798cc44c89c402112a7f84e
+      internalID: 893919826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1282
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd933ee925a3ac4aa46728699e9a076
+      internalID: -1113489612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1281
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aa82f7f373084498b86033c1edf7a3
+      internalID: 362213291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1282
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3132d978029541f40b96b2d53441376d
+      internalID: -698638500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1283
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c8cba7a4c9454682a4c8dfbd40d8b
+      internalID: 653968942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1282
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e856c80f9609a439e364b1e21a492f
+      internalID: 2137536295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1281
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aad81bcf1d690249857b2e5329ba9b0
+      internalID: -565814549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1282
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13735a61114334598b403ae59fbf73
+      internalID: 1408552530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_69
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1218
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e751b6767184458f312a63c839b2f
+      internalID: -1318771457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1218
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eb2ca5ae7002443ad11a3d25e2c1a0
+      internalID: -1407274602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1219
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f696a418bdc346b0fbdb79d706e68
+      internalID: -1732554398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_72
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1219
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8adabccdad5e94b8bb60ab62d5ce24
+      internalID: 1579026414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1218
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd253aeb5eef4b43acf1b619888aff2
+      internalID: 1520913167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1218
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddd7d10ec96d774db1bf70bf6ac0d6e
+      internalID: -62499881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_75
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1218
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0342894a9c66e45bc872deb03a635b
+      internalID: -672034009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_76
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1218
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d2ba9da5df7647b6a9eb6a04f38e5
+      internalID: -2091985476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_77
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1218
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2625c3103647b7142ac6f2f462eaa2e0
+      internalID: 9182749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1154
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f63a0684e8e084a9fe01bf15004106
+      internalID: -1794908117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1154
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa82e9a6e41a14c93219f6fcc90a29
+      internalID: 1309427451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1153
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ecbba4ba55ef418b377265d5842ef
+      internalID: 2123646053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1153
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82524af4b48729645a9f1576df2b88dd
+      internalID: -1340262489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1153
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0287b93d7c27fe243b4cb1ea30da4e5b
+      internalID: -595872917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1154
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467fc16239236542b2af0f8a9fcf42b
+      internalID: 1512031272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1153
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef0861ad3de374eaad2961e9b26095
+      internalID: -1867499054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1153
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4aa6ec627fdfd4eb4fa01340a42712
+      internalID: -60092134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1153
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ed76bbb34cbe54e8bf83e949b7b21d
+      internalID: -849960006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_87
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1090
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf935f2892aa864e82c9840b0c9c5ea
+      internalID: 940872666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1090
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efea96c727f06984c9d285bd80f48d6e
+      internalID: 1544376880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1091
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a194c5dcd9a2f34a9f50509d604b6bb
+      internalID: -1203999181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1091
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e363a2f8c44ea4bad3ff59f6e03a38
+      internalID: -217921994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1090
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c6743c1be75f499748cf8f3b686b5
+      internalID: -276417348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1090
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19590cd8adf1da4a97b1295930f2a58
+      internalID: -1881185743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1090
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb8a079742b344eb6647734f97d39a
+      internalID: -1383310670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1090
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79946499f3ad2dc40b675ab30564f915
+      internalID: 1043182452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1090
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b790953ef94944f964ebf7f0d648aa
+      internalID: -448696321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1026
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca8cb0e8cc4ee49a850bb38e93b5cd
+      internalID: -1193699083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1025
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3e2dd5373c7a418c1206d5a7a18d1
+      internalID: -453431762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1025
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f26ce8434f358468b5860ce3580c57
+      internalID: -1288589321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1025
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec7b1cc46092d942b01944cd4ef1627
+      internalID: 1418262273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1025
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a0a50365580249ba786ebcd83bfcd
+      internalID: 96185979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1025
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158d1b6f008ff904296166144da408ef
+      internalID: -1329912645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_102
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 962
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42208878457e67c478407fd5bad70f5b
+      internalID: 276264816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 962
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20931a2bba41544e845d24be00429ea
+      internalID: 605525114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_104
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 962
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50569fc8a7a48ed4da7b5ce0b33e98c0
+      internalID: -37201903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 962
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08204c5a7e27104f9977ab08a3445b1
+      internalID: -2109211622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 962
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82682f77032a2d64ab5c7da5badbaa70
+      internalID: 1610371409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 962
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ede00df09a4b478cc5988421bb57c
+      internalID: -1717537394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 898
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d415d1dd8a570547b2f0be2cb548ca0
+      internalID: 1396420925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 898
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43366cb42010e49be4a1a9afde9ffb
+      internalID: -723622784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 898
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0228627fed3609d4eaf00064ebe550f5
+      internalID: 401601686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_111
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 898
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f778e6a377dd1c742ab619ddb74dd193
+      internalID: 90759013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 898
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718cdf94e6148c44abc31ad8f2ced0a2
+      internalID: 904786512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 898
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95fd92fcdf9e71469ebd0f2df0a2497
+      internalID: -727908259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_114
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 834
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd52238cd74e9f1439d8d7e26588e7e7
+      internalID: 463257568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_115
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 834
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d1b10b1b2dd04ab6028a55c6b4415
+      internalID: -1199462629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 834
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03649c1ff26294f9d32c3179fbdd11
+      internalID: 2038519800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 834
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b673c32dbb2682d4fa070ea050c649c3
+      internalID: -1721093014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 834
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50a73e6d7803746a66832d917a3693
+      internalID: -215471472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 834
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6f900d5de124945896d263e22e16b1
+      internalID: -1150689179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf7d9656d839e44c9900a403a078b58
+      internalID: 32428137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_121
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 796
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119327e839f851546bcf11ebbd5d8f54
+      internalID: -553978597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_122
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3b2cfd58dda6d4595effe103837b60
+      internalID: 397265655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_123
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd88e027e2de4644944e0085046be03
+      internalID: 548873425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_124
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823030edbae0564c9b28d1ee3648e7d
+      internalID: -495779585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_125
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9221ee912f5941342af1733300fb0a91
+      internalID: 638678469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_126
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea40425f14135294e890b05686f329c1
+      internalID: 2112211337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_127
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a89729c66d36429d577df32a84b8a
+      internalID: 1242966132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_128
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d951cd4720a444987eb32d8db9bae1
+      internalID: -429208749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_129
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462957025007e9a4cbde3619a2a59234
+      internalID: -922038073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_130
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d091e616ee37f744eb5876efeac20aba
+      internalID: -280437553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_131
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be32ec62bc184c4abda0ad9e9d2d267
+      internalID: -2127416063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_132
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 797
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d9a7408eab02b43abc6d5e964f8616
+      internalID: -923255364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 776
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46564f5cc58fbb74f9b1cf9bdffe1237
+      internalID: -1532919114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_134
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 775
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3df4ea06a9a2c4092b6d72a66fbf35
+      internalID: -1747289770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_135
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 775
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061a03ce20056bb469b6d33ee2288f31
+      internalID: -1148354606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_136
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565e4ed8b770f6f48b1c77b098003ea3
+      internalID: -969029589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_137
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54336729d3f364844afb20d6ca581067
+      internalID: 553073700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_138
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c87116ce9176fc408c6eba2bce25ba8
+      internalID: -1842776741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_139
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227358810ecb35e4aa662679d92f9511
+      internalID: -1231607739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_140
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a697fe4968300464487a4ed58e0cbe81
+      internalID: -759690184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_141
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da81b574c87f99b47adc73a41cfe7bbf
+      internalID: -1680927697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_142
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ef354e0ab758488fa791f5ad77b6f
+      internalID: -759699940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_143
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ed879bb3cb9094c94dcac74626a8e0
+      internalID: 159595524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_144
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312015e43486ffb4b957ea94cbe7ce72
+      internalID: 219693327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_145
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd9c13103c90de428652da6e70fbd4c
+      internalID: -31826212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_146
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1678dab31406a4997b25fdf6acca35
+      internalID: 1621760780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_147
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5615d3baebff74694eea1de01c9494
+      internalID: -1560585770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_148
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904735dccca3f974a84ab10f85fe4012
+      internalID: -1257015557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_149
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3cc0c36734a474790e56fd0235bbb2
+      internalID: 1737037402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_150
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3fb03369930274aa676f18da9a5068
+      internalID: -333818009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_151
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 738
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff6566e257a344bb0c03edcac5dc97
+      internalID: 1112389496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_152
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b8dcbfb1a7b64dbdd7a5706e97f80
+      internalID: -1179011008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_153
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7446759f2fcbf164e91d67c1fb8cc1fd
+      internalID: -1522546576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_154
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711df23499f19d94ba6e2b36db66e15c
+      internalID: 1294313360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_155
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ec8c344dd50654cbf08e142767d215
+      internalID: 981334627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_156
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06080a181660b846846821f1da2dc67
+      internalID: 1121610520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_157
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad1287ebbdbee8499770a6ee4ae7811
+      internalID: -1107692341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_158
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 730
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7a3ece87aaa1c42ab14de28dafcf2c
+      internalID: -795641303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_159
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 730
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7ac667e4ddb3e429c87081e841a7bd
+      internalID: -826116457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_160
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 711
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd46c17aff3c840b3113711c3bbd7d
+      internalID: 1505547356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_161
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 711
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1379e7b2ff550264ca55627bf1f8a65c
+      internalID: 1000055329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_162
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 711
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06d557ce44fc1c4ca9e22000be32563
+      internalID: 1864500957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_163
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b4238cd536bf8439bee4e1f0555663
+      internalID: 640955523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_164
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f576583cc1a6a4eb532e2d3bec5b38
+      internalID: 1366438204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_165
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5355bd074f5a9245bcdbe21a3a478b7
+      internalID: -246642675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_166
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef7f2ea496091d4eb723927b01232b0
+      internalID: -1485819367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_167
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf0624165d23d4585eedb834fd5d74
+      internalID: -280785754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_168
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0f9147297f1644bfdd34bbee02b30
+      internalID: 204920038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_169
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc1309a2bd67c74596b260024d9bf20
+      internalID: 113245535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_170
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81252eaff2b1a2645bc5d8ba284f0d2e
+      internalID: -466659068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_171
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 711
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a26595b5118a0b4b8f49b315e7af611
+      internalID: -986422840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_172
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 711
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73e8f9c89f76ef458742519055783bb
+      internalID: -823541000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_173
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0593037fc86604e841e5822e841878
+      internalID: -598110000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_174
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a54010e8c72724784fbbb7f6b3039d
+      internalID: 1895706598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_175
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac25326d3784a54f8ce508a7e6bef90
+      internalID: 284601396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_176
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d1419c14c98c048b4300710da43b8d
+      internalID: -880259566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_177
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba2449ecdab6dd43ab8594b1794cef7
+      internalID: 757971162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_178
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7daf2f76b1805a498c121fe563b3a39
+      internalID: -1290244356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_179
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b2645575300a9479b16c6552875dc2
+      internalID: 406910666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_180
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 666
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426c20f5f8c5a4749a0c61543153e182
+      internalID: 234467629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_181
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314e6ae72b0f994bab04d7b269f5411
+      internalID: -2116566787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_182
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0b0f8478168004587164980fa94a0a
+      internalID: 680987016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_183
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f35ba9f7d80a2747aa1266029d52d2e
+      internalID: 191771241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_184
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f042c629d5a7f4cbe9019747f58b56
+      internalID: -1007756849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_185
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 666
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a47f599cda76c64cb3d50c4c90387e6
+      internalID: 905272721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_186
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 648
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372d96eebb0cb854594c91c0a68e61d5
+      internalID: -2104429633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_187
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 649
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927b25168d54084aa5bd9d74ef25fd8
+      internalID: -604290809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_188
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 648
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c7f211bb440c4ea3d92fa151a47ef
+      internalID: -328794187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_189
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 648
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c3db7b621c2354dbe0c0743a11926c
+      internalID: 1121947913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_190
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3587b70d724ee194ab228edfdb7cce50
+      internalID: 1501534303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_191
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de653d5481778546b7f9fa719200b77
+      internalID: -2044759261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_192
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cb1671f42f7484d9f40a0e77f11e0c
+      internalID: 1575392099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_193
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a92385406940144aa594279815bf508
+      internalID: 1759359348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_194
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a703d0fbe0a48748a97f45a799cdd55
+      internalID: 2118364716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_195
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842e193f05077c42a56075e6991b2f9
+      internalID: -754440395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_196
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804aebd29e4c1af43aa7558c264a3fdd
+      internalID: 1665376180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_197
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 648
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb177840c30e9984eb682c04179917a5
+      internalID: -1707538675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_198
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 648
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa45c1789fa0fc4eb044cfaa6490b71
+      internalID: -1330911046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_199
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdc4baca44320140b0a3bad2255b589
+      internalID: 1800794578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_200
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f56a5486427f9489b5d6ed26a9084f
+      internalID: -770815705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_201
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921990d2e7388b45a0abfe7dfd43472
+      internalID: -519144536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_202
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ec9d9922b6ff47a4f9c83d4dd2669
+      internalID: 786393651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_203
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33078353cc89ff74aa534af341dd660a
+      internalID: -1954542555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_204
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 610
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6603ce17ddea2c46a9cd04c995d9aa1
+      internalID: 1179188547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_205
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89269d2be42764d43a3ab572b0d670b3
+      internalID: 933759154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_206
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea8d58a943e8df4882120eec86ae83e
+      internalID: 1094162801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_207
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d342e9045410c48ba4f164d01c05eb
+      internalID: 1572199808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_208
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da58a6de97083547ae9500be359455f
+      internalID: 1597864523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_209
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a04ea13cb8cd764fb20458f7885f2f4
+      internalID: -1627021520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_210
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf102746c96d074198f88e6dd2a83aa
+      internalID: -1395950625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_211
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 602
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36756285907cd44ac9657759170984
+      internalID: 212169299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_212
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 602
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c9e830f4669eb4eb6bfae532bd2778
+      internalID: -1913361372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_213
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 583
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec382d7140d813147823875687ba41ab
+      internalID: -597497071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_214
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 583
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a84ed77b9bdac40abba4655347164b
+      internalID: -2020013227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_215
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 583
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4fec9922348f24dadcaf43784bf8e7
+      internalID: 1809883464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_216
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7246a25afae284045951b496ed052396
+      internalID: -147182525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_217
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b18ccd9bdfef1746b4f762bea47118f
+      internalID: -269990294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_218
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ef0717e2134d4a8a1d5d2774d638a
+      internalID: 725141979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_219
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9274ee917d659d541923a5474cdc0275
+      internalID: 1313433355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_220
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d181aa3fd45d3a4a95df9bfbbf9ee96
+      internalID: 1861818001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_221
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e314234d270600849b582abd4b7fe19a
+      internalID: 1276832237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_222
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e0c80f63c6ea4e836481a69d3e83a
+      internalID: 1554212000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_223
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40301d13f72f4a34c964ed706a609133
+      internalID: -2142088559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_224
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 583
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3373f8e90ae65641a60843ce42a48e1
+      internalID: -571227730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_225
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 583
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf7de047913f7b42a788d8f7a294a8f
+      internalID: -1534764138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_226
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 514
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6f32c26bf50a648b4dc62a351b5a44
+      internalID: -198127945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_227
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 514
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0b2e7a14f9cb34eba53659cea0a1f6
+      internalID: -646540447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_228
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 514
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301877f4e7c8fad4ab67c43d5d63cc00
+      internalID: -2054643098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_229
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 515
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546f5f009b83ae1489bd46ebb5a162b8
+      internalID: 619777179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_230
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 515
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac70093a215182b41917daafa32f0018
+      internalID: 34148919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_231
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 513
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0d300a86374b6459606ff71b1070d0
+      internalID: -2053217663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_232
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 418
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf0dbe61018eb1449a2146b06167066
+      internalID: -1969313261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_233
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 417
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982565f3ecd81594087b9d60fa59b604
+      internalID: -1288416676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_234
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 417
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b8110591fbe24eb8d5788fbec9fff
+      internalID: 1655211374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_235
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 417
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df64f79e84d7cc44695efa29dba5660a
+      internalID: 80309362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_236
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 417
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4b810ff404d8042a0e5f2158414410
+      internalID: -393013732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_237
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 417
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fcfd4e1d069bd488ac91d16984d71c
+      internalID: -737148058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_238
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 290
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64fc7941f6de964ebd1c8beb58ad7aa
+      internalID: -1017660065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_239
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 290
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f7344fa932a2f4b930e53f4d7817e5
+      internalID: -335713526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_240
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 290
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fde12e1deb44ce4e9b89c345cc39475
+      internalID: 1349982822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_241
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 290
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ae04974dfcefa42970ff0fee6f5db9
+      internalID: -51821405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_242
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 290
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b323996c42cd6d4589dc0f377ddb258
+      internalID: -1136864902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_243
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 290
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0849f7e7f454aa54ead79fe059d788f1
+      internalID: 1739148508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_244
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 162
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e826c4992fcf843821041871ae1676
+      internalID: -305027905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_245
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 162
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9903398ad430b24c9bafa14987a6703
+      internalID: 202444444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_246
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 162
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba4fa8bc238de845b34608c4c2fb93b
+      internalID: -1714311529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_247
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 162
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f9807f3f455dd45b44aeaa1ae085e0
+      internalID: -771902958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_248
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 162
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e93548bfe829439ef5e4cd7b7bd1c
+      internalID: -491343687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_249
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 162
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7d36ad9ce98b647b56839a2aed5212
+      internalID: 109997904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_250
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 34
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c54b89f45736d4c9374935fb3789da
+      internalID: -1193740405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_251
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 34
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d78bfe4b7338c4499c1f41c1aa2aefd
+      internalID: 570663518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_252
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 34
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31b9ccf371f8fb45a9e3af91a6ac648
+      internalID: -1063802438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_253
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 34
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4125439e3b7187c4bb0ed9434e7548a3
+      internalID: 1505389908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_254
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 34
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70fcb5300318714ca565f7ee189ae6c
+      internalID: 289618571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tribeleader_255
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 34
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f277131d1b7f4bb4aa4a6bb1015d6
+      internalID: -1328773231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tribeleader_0: -643205285
+      Tribeleader_1: -1417629258
+      Tribeleader_10: 1396058119
+      Tribeleader_100: 96185979
+      Tribeleader_101: -1329912645
+      Tribeleader_102: 276264816
+      Tribeleader_103: 605525114
+      Tribeleader_104: -37201903
+      Tribeleader_105: -2109211622
+      Tribeleader_106: 1610371409
+      Tribeleader_107: -1717537394
+      Tribeleader_108: 1396420925
+      Tribeleader_109: -723622784
+      Tribeleader_11: -1397846769
+      Tribeleader_110: 401601686
+      Tribeleader_111: 90759013
+      Tribeleader_112: 904786512
+      Tribeleader_113: -727908259
+      Tribeleader_114: 463257568
+      Tribeleader_115: -1199462629
+      Tribeleader_116: 2038519800
+      Tribeleader_117: -1721093014
+      Tribeleader_118: -215471472
+      Tribeleader_119: -1150689179
+      Tribeleader_12: -1854489576
+      Tribeleader_120: 32428137
+      Tribeleader_121: -553978597
+      Tribeleader_122: 397265655
+      Tribeleader_123: 548873425
+      Tribeleader_124: -495779585
+      Tribeleader_125: 638678469
+      Tribeleader_126: 2112211337
+      Tribeleader_127: 1242966132
+      Tribeleader_128: -429208749
+      Tribeleader_129: -922038073
+      Tribeleader_13: 41606891
+      Tribeleader_130: -280437553
+      Tribeleader_131: -2127416063
+      Tribeleader_132: -923255364
+      Tribeleader_133: -1532919114
+      Tribeleader_134: -1747289770
+      Tribeleader_135: -1148354606
+      Tribeleader_136: -969029589
+      Tribeleader_137: 553073700
+      Tribeleader_138: -1842776741
+      Tribeleader_139: -1231607739
+      Tribeleader_14: 987000240
+      Tribeleader_140: -759690184
+      Tribeleader_141: -1680927697
+      Tribeleader_142: -759699940
+      Tribeleader_143: 159595524
+      Tribeleader_144: 219693327
+      Tribeleader_145: -31826212
+      Tribeleader_146: 1621760780
+      Tribeleader_147: -1560585770
+      Tribeleader_148: -1257015557
+      Tribeleader_149: 1737037402
+      Tribeleader_15: -217667146
+      Tribeleader_150: -333818009
+      Tribeleader_151: 1112389496
+      Tribeleader_152: -1179011008
+      Tribeleader_153: -1522546576
+      Tribeleader_154: 1294313360
+      Tribeleader_155: 981334627
+      Tribeleader_156: 1121610520
+      Tribeleader_157: -1107692341
+      Tribeleader_158: -795641303
+      Tribeleader_159: -826116457
+      Tribeleader_16: -969709391
+      Tribeleader_160: 1505547356
+      Tribeleader_161: 1000055329
+      Tribeleader_162: 1864500957
+      Tribeleader_163: 640955523
+      Tribeleader_164: 1366438204
+      Tribeleader_165: -246642675
+      Tribeleader_166: -1485819367
+      Tribeleader_167: -280785754
+      Tribeleader_168: 204920038
+      Tribeleader_169: 113245535
+      Tribeleader_17: -1070337302
+      Tribeleader_170: -466659068
+      Tribeleader_171: -986422840
+      Tribeleader_172: -823541000
+      Tribeleader_173: -598110000
+      Tribeleader_174: 1895706598
+      Tribeleader_175: 284601396
+      Tribeleader_176: -880259566
+      Tribeleader_177: 757971162
+      Tribeleader_178: -1290244356
+      Tribeleader_179: 406910666
+      Tribeleader_18: -682110866
+      Tribeleader_180: 234467629
+      Tribeleader_181: -2116566787
+      Tribeleader_182: 680987016
+      Tribeleader_183: 191771241
+      Tribeleader_184: -1007756849
+      Tribeleader_185: 905272721
+      Tribeleader_186: -2104429633
+      Tribeleader_187: -604290809
+      Tribeleader_188: -328794187
+      Tribeleader_189: 1121947913
+      Tribeleader_19: -2125759255
+      Tribeleader_190: 1501534303
+      Tribeleader_191: -2044759261
+      Tribeleader_192: 1575392099
+      Tribeleader_193: 1759359348
+      Tribeleader_194: 2118364716
+      Tribeleader_195: -754440395
+      Tribeleader_196: 1665376180
+      Tribeleader_197: -1707538675
+      Tribeleader_198: -1330911046
+      Tribeleader_199: 1800794578
+      Tribeleader_2: 1257716191
+      Tribeleader_20: -1703215586
+      Tribeleader_200: -770815705
+      Tribeleader_201: -519144536
+      Tribeleader_202: 786393651
+      Tribeleader_203: -1954542555
+      Tribeleader_204: 1179188547
+      Tribeleader_205: 933759154
+      Tribeleader_206: 1094162801
+      Tribeleader_207: 1572199808
+      Tribeleader_208: 1597864523
+      Tribeleader_209: -1627021520
+      Tribeleader_21: -1471008425
+      Tribeleader_210: -1395950625
+      Tribeleader_211: 212169299
+      Tribeleader_212: -1913361372
+      Tribeleader_213: -597497071
+      Tribeleader_214: -2020013227
+      Tribeleader_215: 1809883464
+      Tribeleader_216: -147182525
+      Tribeleader_217: -269990294
+      Tribeleader_218: 725141979
+      Tribeleader_219: 1313433355
+      Tribeleader_22: 1351104775
+      Tribeleader_220: 1861818001
+      Tribeleader_221: 1276832237
+      Tribeleader_222: 1554212000
+      Tribeleader_223: -2142088559
+      Tribeleader_224: -571227730
+      Tribeleader_225: -1534764138
+      Tribeleader_226: -198127945
+      Tribeleader_227: -646540447
+      Tribeleader_228: -2054643098
+      Tribeleader_229: 619777179
+      Tribeleader_23: 1236136720
+      Tribeleader_230: 34148919
+      Tribeleader_231: -2053217663
+      Tribeleader_232: -1969313261
+      Tribeleader_233: -1288416676
+      Tribeleader_234: 1655211374
+      Tribeleader_235: 80309362
+      Tribeleader_236: -393013732
+      Tribeleader_237: -737148058
+      Tribeleader_238: -1017660065
+      Tribeleader_239: -335713526
+      Tribeleader_24: 40555335
+      Tribeleader_240: 1349982822
+      Tribeleader_241: -51821405
+      Tribeleader_242: -1136864902
+      Tribeleader_243: 1739148508
+      Tribeleader_244: -305027905
+      Tribeleader_245: 202444444
+      Tribeleader_246: -1714311529
+      Tribeleader_247: -771902958
+      Tribeleader_248: -491343687
+      Tribeleader_249: 109997904
+      Tribeleader_25: 290373787
+      Tribeleader_250: -1193740405
+      Tribeleader_251: 570663518
+      Tribeleader_252: -1063802438
+      Tribeleader_253: 1505389908
+      Tribeleader_254: 289618571
+      Tribeleader_255: -1328773231
+      Tribeleader_26: -956759886
+      Tribeleader_27: -791282424
+      Tribeleader_28: -660248811
+      Tribeleader_29: -1132808672
+      Tribeleader_3: 668348327
+      Tribeleader_30: 615567719
+      Tribeleader_31: 385107110
+      Tribeleader_32: 1927367129
+      Tribeleader_33: -1938254862
+      Tribeleader_34: -1461520779
+      Tribeleader_35: -1162948846
+      Tribeleader_36: -1846957520
+      Tribeleader_37: -444711356
+      Tribeleader_38: -665183542
+      Tribeleader_39: 35364347
+      Tribeleader_4: -1828944506
+      Tribeleader_40: -1578919005
+      Tribeleader_41: -2013217017
+      Tribeleader_42: 1130094119
+      Tribeleader_43: 1289733418
+      Tribeleader_44: -2135428373
+      Tribeleader_45: -580795065
+      Tribeleader_46: 121254603
+      Tribeleader_47: 67929860
+      Tribeleader_48: -969492200
+      Tribeleader_49: 427939465
+      Tribeleader_5: -1887897184
+      Tribeleader_50: -1041265337
+      Tribeleader_51: -1648230058
+      Tribeleader_52: 1228462374
+      Tribeleader_53: 1429539459
+      Tribeleader_54: 772118303
+      Tribeleader_55: 364934434
+      Tribeleader_56: 1701992254
+      Tribeleader_57: 1174901394
+      Tribeleader_58: -1394525753
+      Tribeleader_59: -552980554
+      Tribeleader_6: 1186965670
+      Tribeleader_60: 1392941026
+      Tribeleader_61: 893919826
+      Tribeleader_62: -1113489612
+      Tribeleader_63: 362213291
+      Tribeleader_64: -698638500
+      Tribeleader_65: 653968942
+      Tribeleader_66: 2137536295
+      Tribeleader_67: -565814549
+      Tribeleader_68: 1408552530
+      Tribeleader_69: -1318771457
+      Tribeleader_7: 2144738528
+      Tribeleader_70: -1407274602
+      Tribeleader_71: -1732554398
+      Tribeleader_72: 1579026414
+      Tribeleader_73: 1520913167
+      Tribeleader_74: -62499881
+      Tribeleader_75: -672034009
+      Tribeleader_76: -2091985476
+      Tribeleader_77: 9182749
+      Tribeleader_78: -1794908117
+      Tribeleader_79: 1309427451
+      Tribeleader_8: -1650354439
+      Tribeleader_80: 2123646053
+      Tribeleader_81: -1340262489
+      Tribeleader_82: -595872917
+      Tribeleader_83: 1512031272
+      Tribeleader_84: -1867499054
+      Tribeleader_85: -60092134
+      Tribeleader_86: -849960006
+      Tribeleader_87: 940872666
+      Tribeleader_88: 1544376880
+      Tribeleader_89: -1203999181
+      Tribeleader_9: -1208013584
+      Tribeleader_90: -217921994
+      Tribeleader_91: -276417348
+      Tribeleader_92: -1881185743
+      Tribeleader_93: -1383310670
+      Tribeleader_94: 1043182452
+      Tribeleader_95: -448696321
+      Tribeleader_96: -1193699083
+      Tribeleader_97: -453431762
+      Tribeleader_98: -1288589321
+      Tribeleader_99: 1418262273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
