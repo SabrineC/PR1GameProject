@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Animator anim;
+/*     public Animator anim;
     public Transform target;
     public Transform homePosition;
     public float speed;
@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         target = FindObjectOfType<PlayerMovement>().transform;
-    }
+    } 
 
     // Update is called once per frame
     void Update()
@@ -49,7 +49,7 @@ public class EnemyMovement : MonoBehaviour
         {
             anim.SetBool("isMoving", false);
         }
-    }
+    } */
 }
 
 
