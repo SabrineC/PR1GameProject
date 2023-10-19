@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Rigidbody2D rbody;
-    public Animator animator;
-    public Transform Player;
-    public float ChaseSpeed;
-    public float Range;
-    float CurrentSpeed;
+    private Animator animator;
+    private Transform player;
+    private float speed;
+    private float range;
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        player = FindObjectOfType<PlayerMovement>().transform;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 movement_vector = new Vector2(rbody.velocity.x, rbody.velocity.y);
-        if (movement_vector != Vector2.zero)
-        {
-            animator.SetFloat("Horizontal", rbody.velocity.x);
-            animator.SetFloat("Vertical", rbody.velocity.y);
-            animator.SetFloat("CurrentSpeed", movement_vector.sqrMagnitude);
-        }
+        FollowPlayer();
 
-        if (Vector3.Distance(transform.position, Player.position) <= Range)
-        {
-            CurrentSpeed = ChaseSpeed * Time.deltaTime; 
-            transform.position = Vector3.MoveTowards(transform.position, Player.position, CurrentSpeed);
-        }
+    }
+
+    public void FollowPlayer()
+    {
+        animator.SetBool("isMoving", true);
+        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
 }
