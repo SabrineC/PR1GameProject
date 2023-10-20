@@ -6,9 +6,10 @@ public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
 
-    public Transform attackPoint;
-    public float attackRange = 0.5f;
-    public LayerMask enemyLayer;
+    //attack variables
+    public Transform attack_point;
+    public float attack_range = 0.5f;
+    public LayerMask enemy_layer;
 
     void Update()
     {
