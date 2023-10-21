@@ -62,7 +62,7 @@ sysinfo.txt
 *.app
 
 # Crashlytics generated file
-Stranded/crashlytics-build.properties
+/Stranded/crashlytics-build.properties
 
 # Packed Addressables
 /Stranded/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
