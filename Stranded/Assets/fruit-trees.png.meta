@@ -1,0 +1,2346 @@
+fileFormatVersion: 2
+guid: 428deada2b10d4504b7b8ebb04435a54
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fruit-trees_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3966
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bca03ca888c4286a26bd2a667932d7
+      internalID: 2039126844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3968
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b87c3dd4c324358ba212337ee19272
+      internalID: 1692829706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3968
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab44f80a7efd4963a525925c2f35879
+      internalID: 811621171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3966
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4a860b03c0a420cabb02c5b9f2921c
+      internalID: 1773078952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3968
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b459830e95450fbccd28773e628b9
+      internalID: -609545243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3966
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6535d10a86e4446ba6eceb3858331f5
+      internalID: -1665804605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_6
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3968
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4476569647a1c492c9775a775b198bfa
+      internalID: 386015065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3838
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de301ab52407246f198ecc05e47265dc
+      internalID: -1052690808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3838
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1899f53cbacd44512a809e3bb7cd4d69
+      internalID: -1206745561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3846
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2376205a0f5214071b187cad02dfdbdf
+      internalID: 1624791815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3838
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc32ead03282478bb227c863bb50a52
+      internalID: -2030587694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_11
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3838
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c56a95fc726846edaf5aa443aa80ec0
+      internalID: 835459234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3844
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efed9e9dc0fc4427a7c143cacb5bc49
+      internalID: -1398420496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_13
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3838
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8952a099d9ca4b35ac1516388691b7e
+      internalID: 963645562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3710
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672af0198f91746f5aeb737322186fac
+      internalID: -633909939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3710
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38840a6fd2c654a8fbda53af7c82090c
+      internalID: -728626850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3718
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11604597bfed4911956541592327759
+      internalID: 564546133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3716
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31ae4d7e8b9432b8d989750aa8de25
+      internalID: -1987061147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3710
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3da5f1a17e54379a5c6ac932646382
+      internalID: 1290763876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_19
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 3714
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa151f12e527a402c84b9249281fef7d
+      internalID: 855048898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_20
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3710
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94ab34f68ac34036bb384f603412818
+      internalID: 1136713972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3584
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79bc54a72b44bca89b3e57ebf4b5db
+      internalID: 2094925029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_22
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3584
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76508663d78744959a94c815f710e92e
+      internalID: -281166460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3590
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132196c9a56234b7bad86f8c4f86a925
+      internalID: 274368740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_24
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3584
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f469d80e1e71244d7a076f80d03a31b9
+      internalID: -1665756876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3582
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4f5c7aa15ef43458a93a9c91ebf6c3
+      internalID: -1137968769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_26
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 3594
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d830285b3ac549c6976821323095d6c
+      internalID: -2058531185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_27
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3582
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbb0781059ee4919993917a306cd113
+      internalID: 1544496992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3454
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9397452f2f7b48808494078839ad46f
+      internalID: -1304973752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3326
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d314171e3f9043af964be9b2b49ee4f
+      internalID: -1840450734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3076
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0841770646ad43f3b364e90b0aa4f63
+      internalID: 1218165520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3084
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15d8401acfb64116a33808db0bb3b84
+      internalID: -568398301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3082
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ccef81d86934dbe894ac2f7bae5a32
+      internalID: 1532010072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3086
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ec9521a26a2492d97529189785516c
+      internalID: 1180531052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_34
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 3084
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee23fe5e956e44df90cf9483283c8d3
+      internalID: -1435267284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3082
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6064bccadd6724207be3a670b61cc7e8
+      internalID: 969259051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2942
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46958e358822467e9eaf0c5648b4127
+      internalID: -173568525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2942
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07b39948011e45b6abe81a4a6b3d2f7
+      internalID: -1665020098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2818
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb25c30a5a404c8c8f8c229a0a90df8
+      internalID: -1998727811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2816
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3257ed9200e4117868a59e0eff45c6
+      internalID: 318104570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2694
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0884f2da820c446d9a50b87d2f5f4fc7
+      internalID: -1391397921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2686
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc1417ade3f46d986f1f46a19f002b
+      internalID: -879045083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2568
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d751ad99a2f8c4150a4156df3403f506
+      internalID: -1127274040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2560
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19246563593e43b08aecc355b5c942e
+      internalID: -1229299697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1918
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde556cc7ab49469688cc08f39976b90
+      internalID: 1912750165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1918
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a78d2912c734bf0ad1f9c9926425d7
+      internalID: 290613036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_46
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1918
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f86f340558740fa94f89abb53dfc76
+      internalID: -615445661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_47
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1918
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe66802ae81354abeb5a2179bf614a1c
+      internalID: -356317840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_48
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1918
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d493a55f858cf4be08ffe07bfd60e207
+      internalID: 1927919366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1920
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f041159edc8714191b6a50b9eb00fbf8
+      internalID: 1829720805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_50
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1920
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02199897472ad4094abde38125839075
+      internalID: 413294514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_51
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1920
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa825495f4b45d5a106f445cad3b54
+      internalID: -822407257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_52
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1920
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c5747955d964739aecfc3008756b69
+      internalID: 1581437450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_53
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1920
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f835b26c0802646059f9f89c1b782df5
+      internalID: 253965179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_54
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1790
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e00c05ecfd1d475db6fbb24797fd5e8
+      internalID: -1832745185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_55
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1790
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa359759e46e4b4589ac24087cb2e68
+      internalID: 1526235656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1790
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d360399b5d41deb8b5242f9684106
+      internalID: 317821697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_57
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1790
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216b9053279447d6a0069e218c55e42
+      internalID: 46191494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_58
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1790
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca83f69334344c92a1488a663e698c7
+      internalID: -347970656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_59
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1792
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114a191d634740689e95a4513218873
+      internalID: -643558797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_60
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1792
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a52f26a57f2497a88c7885fbd21a19
+      internalID: 1490779469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_61
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1792
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17614cf0195734a0b8da5ff4666b8f50
+      internalID: 1382805037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_62
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1792
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387bf3485631245e184e4968d242d853
+      internalID: 838672050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_63
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1792
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de52bd50d3b840baa1f22ee43ff1350
+      internalID: 1078803938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1662
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6576e12f6804ed3864de55fc3d716d
+      internalID: -538044763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1662
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f54a1080d4434d5aa19e1f630f3923c
+      internalID: -1258746062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1662
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e08d5a4d0784e6ea1021ca21ecb2ac
+      internalID: -2122534044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_67
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1662
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87ee62a9a5bf4bb299723685736811d
+      internalID: -1599956155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_68
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1662
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed792f399316c4c5e8fba7b59b26bec8
+      internalID: 197504096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1664
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be98c61ecc6445a498eae3f8a5639ee
+      internalID: 76895018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_70
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1664
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a86111393ca648a1afbdd41bd51bb7d
+      internalID: 647779477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_71
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1664
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4395835133eb477a94d5c5f7f939f0b
+      internalID: -831556450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_72
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1664
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3026d458b0ea40e69626931df1cd0e5
+      internalID: -791863623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_73
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1664
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f4fb392a04849bd9cc68a2341f0884
+      internalID: -1402197576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_74
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1536
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d102020f17d474c05a937f5684fe094a
+      internalID: -1445803487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_75
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1536
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738d886a2da054d229d7200e7a9e41e9
+      internalID: -1641982004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1534
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2332f69cb6ec4f5fa5ec982cf3adbaa
+      internalID: 1719769375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_77
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1536
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf7086ae76544dc0acfecb63c5118c2
+      internalID: -1266214771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_78
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1536
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6f6b50a1862437eb355e65f7569130
+      internalID: -923910182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_79
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1536
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68f574ef393b4287bff279d861b518e
+      internalID: 1655964510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_80
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1534
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f2ad9e0ca04bcba9f64ba3cf89640
+      internalID: 174620127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_81
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1536
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc55a4151b34f8e81b329f558efc90
+      internalID: -379456775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1408
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582eabc481a44598b03811c39022749
+      internalID: 1238801064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_83
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1408
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155dee7f79924e9480cafa64974ec9b
+      internalID: 1656555476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1406
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cfb2a4e333040e2af9256896861a0b
+      internalID: -2115302359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_85
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1408
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc71818878b8429091e033de18b841f
+      internalID: 88940212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1408
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acfe941132da4778a8560e0c0a00350
+      internalID: 1726401006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_87
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1408
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3283074e1654abb8e0d8ae63e27a51
+      internalID: -754081279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_88
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1406
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9dcf36817fc4c8a88215f9437c0d47
+      internalID: -535498161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_89
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1408
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2e0b043bb23422db2f4ced60114f81
+      internalID: 379639429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1280
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28ee6ba34bbf486d8b7c41cd55a103a
+      internalID: 554445152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_91
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1280
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11bf17c42054ce1b1dba5764a80598
+      internalID: -434865085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_92
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1155
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9b968bf7414a8ab7aacc8fb15a066
+      internalID: 2029763362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_93
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1280
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3bddcf7d66047a381a9936abe6ed20
+      internalID: 1157901650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_94
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1280
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b0c22de88af4dff9e5c2260982357d
+      internalID: -1894831026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_95
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1280
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d0ebdc9c9974799b29073df3e6fafa
+      internalID: 250706497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_96
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1278
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e11dbb22dd924872ab72e5c18fa668d
+      internalID: 1242896803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_97
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1280
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f95dd7fc2df401e846de49d905cb03
+      internalID: 2009383800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_98
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1150
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d3b8900910d49969b468c62b070392
+      internalID: 327223332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_99
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1022
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49156cd1d41ea4acfa84c265d3758e09
+      internalID: 165278063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit-trees_100
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 894
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9234c7b05334ecdb7e89b11ce6a9aa
+      internalID: -916453446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fruit-trees_0: 2039126844
+      fruit-trees_1: 1692829706
+      fruit-trees_10: -2030587694
+      fruit-trees_100: -916453446
+      fruit-trees_11: 835459234
+      fruit-trees_12: -1398420496
+      fruit-trees_13: 963645562
+      fruit-trees_14: -633909939
+      fruit-trees_15: -728626850
+      fruit-trees_16: 564546133
+      fruit-trees_17: -1987061147
+      fruit-trees_18: 1290763876
+      fruit-trees_19: 855048898
+      fruit-trees_2: 811621171
+      fruit-trees_20: 1136713972
+      fruit-trees_21: 2094925029
+      fruit-trees_22: -281166460
+      fruit-trees_23: 274368740
+      fruit-trees_24: -1665756876
+      fruit-trees_25: -1137968769
+      fruit-trees_26: -2058531185
+      fruit-trees_27: 1544496992
+      fruit-trees_28: -1304973752
+      fruit-trees_29: -1840450734
+      fruit-trees_3: 1773078952
+      fruit-trees_30: 1218165520
+      fruit-trees_31: -568398301
+      fruit-trees_32: 1532010072
+      fruit-trees_33: 1180531052
+      fruit-trees_34: -1435267284
+      fruit-trees_35: 969259051
+      fruit-trees_36: -173568525
+      fruit-trees_37: -1665020098
+      fruit-trees_38: -1998727811
+      fruit-trees_39: 318104570
+      fruit-trees_4: -609545243
+      fruit-trees_40: -1391397921
+      fruit-trees_41: -879045083
+      fruit-trees_42: -1127274040
+      fruit-trees_43: -1229299697
+      fruit-trees_44: 1912750165
+      fruit-trees_45: 290613036
+      fruit-trees_46: -615445661
+      fruit-trees_47: -356317840
+      fruit-trees_48: 1927919366
+      fruit-trees_49: 1829720805
+      fruit-trees_5: -1665804605
+      fruit-trees_50: 413294514
+      fruit-trees_51: -822407257
+      fruit-trees_52: 1581437450
+      fruit-trees_53: 253965179
+      fruit-trees_54: -1832745185
+      fruit-trees_55: 1526235656
+      fruit-trees_56: 317821697
+      fruit-trees_57: 46191494
+      fruit-trees_58: -347970656
+      fruit-trees_59: -643558797
+      fruit-trees_6: 386015065
+      fruit-trees_60: 1490779469
+      fruit-trees_61: 1382805037
+      fruit-trees_62: 838672050
+      fruit-trees_63: 1078803938
+      fruit-trees_64: -538044763
+      fruit-trees_65: -1258746062
+      fruit-trees_66: -2122534044
+      fruit-trees_67: -1599956155
+      fruit-trees_68: 197504096
+      fruit-trees_69: 76895018
+      fruit-trees_7: -1052690808
+      fruit-trees_70: 647779477
+      fruit-trees_71: -831556450
+      fruit-trees_72: -791863623
+      fruit-trees_73: -1402197576
+      fruit-trees_74: -1445803487
+      fruit-trees_75: -1641982004
+      fruit-trees_76: 1719769375
+      fruit-trees_77: -1266214771
+      fruit-trees_78: -923910182
+      fruit-trees_79: 1655964510
+      fruit-trees_8: -1206745561
+      fruit-trees_80: 174620127
+      fruit-trees_81: -379456775
+      fruit-trees_82: 1238801064
+      fruit-trees_83: 1656555476
+      fruit-trees_84: -2115302359
+      fruit-trees_85: 88940212
+      fruit-trees_86: 1726401006
+      fruit-trees_87: -754081279
+      fruit-trees_88: -535498161
+      fruit-trees_89: 379639429
+      fruit-trees_9: 1624791815
+      fruit-trees_90: 554445152
+      fruit-trees_91: -434865085
+      fruit-trees_92: 2029763362
+      fruit-trees_93: 1157901650
+      fruit-trees_94: -1894831026
+      fruit-trees_95: 250706497
+      fruit-trees_96: 1242896803
+      fruit-trees_97: 2009383800
+      fruit-trees_98: 327223332
+      fruit-trees_99: 165278063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
