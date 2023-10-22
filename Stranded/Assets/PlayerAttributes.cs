@@ -6,7 +6,7 @@ public class PlayerAttributes : MonoBehaviour
 {
     public HealthBar health_bar;
 
-    //health variables
+    // Health variables
     public int max_health = 100;
     public int current_health;
 
@@ -24,7 +24,7 @@ public class PlayerAttributes : MonoBehaviour
         } 
     }
 
-    //removing player health from health bar when damaged
+    // Removing player health from health bar when damaged
     
      void Damaged(int damage)
     {
