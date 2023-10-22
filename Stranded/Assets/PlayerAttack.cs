@@ -6,14 +6,14 @@ public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
 
-    // Attack variables
+    //attack variables
     public Transform attack_point;
     public float attack_range = 0.5f;
     public LayerMask enemy_layer;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
         }
@@ -21,10 +21,10 @@ public class PlayerAttack : MonoBehaviour
 
     void Attack()
     {
-        // Link animation to attack
+        //link animation to attack
         animator.SetTrigger("Attack");
 
-        // If enemies are in range deals damage
+        //if enemies are in range deals damage
 
     }
 }

@@ -10,16 +10,16 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
 
-    // Store vertical and horizontal inputs
+    //store vertical and horizontal inputs
     Vector2 movement;
 
     void Update()
     {
-        // Getting Input from wasd or arrow keys
+        //getting Input from wasd or arrow keys
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Linking animations to movement
+        //linking animations to movement
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Making inputs into movement
+        //making inputs into movement
         rb.MovePosition(rb.position + movement * movement_speed * Time.fixedDeltaTime);
     }
 }
