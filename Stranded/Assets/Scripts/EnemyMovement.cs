@@ -2,54 +2,107 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
-    public Animator anim;
-    public Transform target;
-    public Transform homePosition;
-    public float speed;
-    public float maxRange;
-    public float minRange;
+    // Variables
+    public Animator animator;
+    public Transform target; // Follows the target (player)
+    private Vector3 homePosition; // Starting position of the enemy
+    public float speed; // Enemy movement speed
+    public float maxRange; // Maximum range that the enemy can follow the player
+    private bool isGoingHome = false; // Check to determine whether the enemy should go back to home position
+    public float stoppingThreshold = 0.1f; // Thresehold that the enemy stops moving (for the home position)
+    public float attackRange = 0.5f; // Range that the enemy stops to attack
+
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
-        target = FindObjectOfType<PlayerMovement>().transform;
-    } 
+        // Initialise variables
+        animator = GetComponent<Animator>();
+        target = FindObjectOfType<PlayerMovement>().transform; 
+        homePosition = transform.position;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(target.position.transform.position) <= maxRange && Vector2.Distance(target.position, transform.position)>= minRange)
+        // Calculates the distance to the target
+        float distanceToTarget = Vector3.Distance(target.position, transform.position);
+        
+        // If the player is within the maximum range, follow the player
+        if (distanceToTarget <= maxRange)
         {
-            FollowPlayer();
+            isGoingHome = false; 
+            FollowPlayer(distanceToTarget); 
         }
-        else if(Vector2.Distance(target.position, transform.position) >= maxRange)
+        // If the player is not within maximum range, go back to the home position
+        else if (distanceToTarget > maxRange)
         {
-            GoHome();
+            isGoingHome = true;
+            GoHome(); 
         }
-
     }
 
-    public void FollowPlayer()
+    // Follows the player
+    public void FollowPlayer(float distanceToTarget)
     {
-        anim.SetBool("isMoving", true);
-        anim.SetFloat("moveX", (target.position.x - transform.position.x));
-        anim.SetFloat("moveY", (target.position.y - transform.position.y));
-        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        Vector3 moveDirection = (target.position - transform.position).normalized;
+
+        // If the distance to the player is greater than the attack range, continue following the player
+        if (distanceToTarget > attackRange)
+        {
+            // Set the move direction based on the player's position
+            if (Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+            {
+                moveDirection = new Vector3(Mathf.Sign(moveDirection.x), 0, 0);
+            }
+            else
+            {
+                moveDirection = new Vector3(0, Mathf.Sign(moveDirection.y), 0);
+            }
+            animator.SetFloat("Horizontal", moveDirection.x);
+            animator.SetFloat("Vertical", moveDirection.y);
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + moveDirection, speed * Time.deltaTime);
+        }
+        else // If the player is within the attack range, stop moving
+        {
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+        }
     }
 
+    // Goes back to the home position
     public void GoHome()
     {
-        anim.SetFloat("moveX", (homePosition.position.x - transform.position.x));
-        anim.SetFloat("moveY", (homePosition.position.y - transform.position.y));
-        transform.position = Vector2.MoveTowards(transform.position, homePosition, speed * Time.deltaTime);
+        if (!isGoingHome) return;
 
-        if (Vector2.Distance(transform.position, homePosition.position) == 0)
+        Vector3 moveDirection = (homePosition - transform.position);
+
+        // If the move direction magnitude is greater than the stopping threshold, continue moving towards the home position
+        if (moveDirection.magnitude > stoppingThreshold)
         {
-            anim.SetBool("isMoving", false);
-        }
-    } 
-}
-*/
+            moveDirection = moveDirection.normalized;
 
+            // Set the move direction based on the home position
+            if (Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+            {
+                moveDirection = new Vector3(Mathf.Sign(moveDirection.x), 0, 0);
+            }
+            else
+            {
+                moveDirection = new Vector3(0, Mathf.Sign(moveDirection.y), 0);
+            }
+
+            animator.SetFloat("Horizontal", moveDirection.x);
+            animator.SetFloat("Vertical", moveDirection.y);
+
+            transform.position = Vector3.MoveTowards(transform.position, homePosition, speed * Time.deltaTime);
+        }
+        else // If the enemy reaches the home position, stop moving
+        {
+            isGoingHome = false;
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+        }
+    }
+}
