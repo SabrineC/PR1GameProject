@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 1128653488697495373}
   - component: {fileID: 7697671973253465811}
   m_Layer: 0
-  m_Name: New Palette
+  m_Name: PalmTreePalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
