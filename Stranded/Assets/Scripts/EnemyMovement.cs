@@ -51,8 +51,7 @@ public class EnemyMovement : MonoBehaviour
         // If the distance to the player is greater than the attack range, continue following the player
         if (distanceToTarget > attackRange)
         {
-            // Set the move direction based on the player's position
-            if (Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+            if (Mathf.Abs(moveDirection.x) > 0.1f)
             {
                 moveDirection = new Vector3(Mathf.Sign(moveDirection.x), 0, 0);
             }
