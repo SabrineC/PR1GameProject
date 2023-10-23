@@ -492,7 +492,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &131221017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 131221015}
 --- !u!212 &131221018
 SpriteRenderer:
@@ -771,7 +771,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &161199860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 161199858}
 --- !u!212 &161199861
 SpriteRenderer:
@@ -848,32 +848,17 @@ GameObject:
   m_Component:
   - component: {fileID: 162304351}
   - component: {fileID: 162304350}
-  - component: {fileID: 162304349}
+  - component: {fileID: 162304353}
   - component: {fileID: 162304348}
   - component: {fileID: 162304347}
-  - component: {fileID: 162304346}
+  - component: {fileID: 162304352}
   m_Layer: 0
   m_Name: Tribeleader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!111 &162304346
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162304345}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_IsActive: 1
 --- !u!50 &162304347
 Rigidbody2D:
   serializedVersion: 4
@@ -900,7 +885,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &162304348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -946,18 +931,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19190595, y: 0.44865072}
   m_EdgeRadius: 0
---- !u!114 &162304349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162304345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2df50cb166a6a6841928741acccab86a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &162304350
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1018,13 +991,52 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162304345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.431, y: -8.23, z: 0}
+  m_LocalPosition: {x: -26.67, y: -8, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &162304352
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162304345}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab46febefce4b9a4fb4b4ce1237f15d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &162304353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162304345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df50cb166a6a6841928741acccab86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 162304352}
+  target: {fileID: 26182868}
+  speed: 1
+  maxRange: 4
+  stoppingThreshold: 0.1
+  attackRange: 0.5
 --- !u!1 &221686756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1225,7 @@ GameObject:
   - component: {fileID: 345789442}
   - component: {fileID: 345789441}
   m_Layer: 0
-  m_Name: Sheep (5)
+  m_Name: Sheep (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1305,7 +1317,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &345789443
 Animator:
   serializedVersion: 5
@@ -1339,7 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 345789443}
 --- !u!212 &345789445
 SpriteRenderer:
@@ -1879,7 +1891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 583346416}
 --- !u!212 &583346413
 SpriteRenderer:
@@ -1974,7 +1986,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &583346416
 Animator:
   serializedVersion: 5
@@ -2123,7 +2135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &584006913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2136,7 +2148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 584006911}
 --- !u!212 &584006914
 SpriteRenderer:
@@ -2277,7 +2289,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &669217077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2290,7 +2302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 669217075}
 --- !u!212 &669217078
 SpriteRenderer:
@@ -2426,7 +2438,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &687782381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,7 +2451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 687782379}
 --- !u!212 &687782382
 SpriteRenderer:
@@ -2575,7 +2587,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &835307000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,7 +2600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 835306998}
 --- !u!212 &835307001
 SpriteRenderer:
@@ -3021,7 +3033,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1061624690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3034,7 +3046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 1061624688}
 --- !u!212 &1061624691
 SpriteRenderer:
@@ -3229,18 +3241,18 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 583346414}
-  - {fileID: 1758834350}
-  - {fileID: 131221014}
-  - {fileID: 584006910}
-  - {fileID: 2141451026}
-  - {fileID: 835306997}
-  - {fileID: 669217074}
-  - {fileID: 687782378}
-  - {fileID: 2089174105}
   - {fileID: 2073928758}
   - {fileID: 2146307977}
   - {fileID: 161199856}
   - {fileID: 1061624686}
+  - {fileID: 1758834350}
+  - {fileID: 131221014}
+  - {fileID: 584006910}
+  - {fileID: 835306997}
+  - {fileID: 669217074}
+  - {fileID: 687782378}
+  - {fileID: 2141451026}
+  - {fileID: 2089174105}
   - {fileID: 2117032708}
   - {fileID: 345789440}
   - {fileID: 1793818683}
@@ -3438,7 +3450,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1758834348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3451,7 +3463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 1758834346}
 --- !u!212 &1758834349
 SpriteRenderer:
@@ -3580,7 +3592,7 @@ GameObject:
   - component: {fileID: 1793818685}
   - component: {fileID: 1793818684}
   m_Layer: 0
-  m_Name: Sheep (7)
+  m_Name: Sheep (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3672,7 +3684,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1793818686
 Animator:
   serializedVersion: 5
@@ -3706,7 +3718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 1793818686}
 --- !u!212 &1793818688
 SpriteRenderer:
@@ -51411,7 +51423,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2073928762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51424,7 +51436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 2073928760}
 --- !u!212 &2073928763
 SpriteRenderer:
@@ -51493,7 +51505,7 @@ GameObject:
   - component: {fileID: 2089174107}
   - component: {fileID: 2089174106}
   m_Layer: 0
-  m_Name: Sheep (6)
+  m_Name: Sheep (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51585,7 +51597,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &2089174108
 Animator:
   serializedVersion: 5
@@ -51619,7 +51631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 2089174108}
 --- !u!212 &2089174110
 SpriteRenderer:
@@ -51693,7 +51705,7 @@ GameObject:
   - component: {fileID: 2117032710}
   - component: {fileID: 2117032709}
   m_Layer: 0
-  m_Name: Sheep (4)
+  m_Name: Sheep (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51785,7 +51797,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &2117032711
 Animator:
   serializedVersion: 5
@@ -51819,7 +51831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 2117032711}
 --- !u!212 &2117032713
 SpriteRenderer:
@@ -51888,7 +51900,7 @@ GameObject:
   - component: {fileID: 2141451028}
   - component: {fileID: 2141451027}
   m_Layer: 0
-  m_Name: Sheep (3)
+  m_Name: Sheep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51980,7 +51992,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &2141451029
 Animator:
   serializedVersion: 5
@@ -52014,7 +52026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 2141451029}
 --- !u!212 &2141451031
 SpriteRenderer:
@@ -52196,7 +52208,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2146307981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52209,7 +52221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  speed: 1
   animator: {fileID: 2146307979}
 --- !u!212 &2146307982
 SpriteRenderer:

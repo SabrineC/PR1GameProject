@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class AnimalMovement : MonoBehaviour
 {
-    public float moveSpeed;
+    public float speed = 1; // Animal movement speed
     public Animator animator; 
 
     private Rigidbody2D rb2d;
     private Vector2[] directions = { Vector2.up, Vector2.down, Vector2.left, Vector2.right }; // This is an array of possible movement directions (N,S,W,E)
-    private Vector2 currentDirection; 
-    private float timer;
+    private Vector2 currentDirection; // Current direction the animal is walking in
     private float changeDirectionTime = 2f; // This is the duration for changing direction
-    private float walkingTime;
-    private bool isWalking = true;
-    private float randomOffset;
+    private float timer;
+    private float walkingTime; // How long the animal should walk for
+    private bool isWalking = true; // Check to determine whether the animal is walking
+    private float randomOffset; // Randomised time length
 
     // Use this for initialization
     void Start()
@@ -61,7 +61,7 @@ public class AnimalMovement : MonoBehaviour
     // Moves the entity in a different direction
     void MoveEntity(Vector2 direction)
     {
-        rb2d.velocity = direction * moveSpeed;
+        rb2d.velocity = direction * speed;
     }
 
     // Updates the animation based on the direction
