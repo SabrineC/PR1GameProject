@@ -30,20 +30,27 @@ public class PlayerAttributes : MonoBehaviour
     {
         current_health -= damage;
 
-        health_bar.SetHealth(current_health);
+       /* health_bar.SetHealth(current_health);
         if (current_health <= 0 )
         {
             Death();
-        }
+        }*/
 
     
     } 
-
+/*
     void Death()
     {
         Destroy(gameObject);
     }
-
+  
+    void End()
+    {
+        if ( Death == true)
+        {
+            run(Endgame);
+        }
+    }*/
 
     
 }
