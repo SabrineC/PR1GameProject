@@ -18,15 +18,12 @@ public class PlayerAttributes : MonoBehaviour
 
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            Damaged(10);
-        } 
+
     }
 
     // Removing player health from health bar when damaged
     
-     void Damaged(int damage)
+    public void Damaged(int damage)
     {
         current_health -= damage;
 

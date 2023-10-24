@@ -176,7 +176,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26182863}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -250,7 +250,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1191576639, guid: 49ea21b9618d55e4194860762aa3df68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 66509276}
   - component: {fileID: 66509275}
   - component: {fileID: 66509274}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tribeman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,9 +532,9 @@ MonoBehaviour:
   animator: {fileID: 66509275}
   target: {fileID: 26182868}
   speed: 1
-  maxRange: 4
+  maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 1
+  attackRange: 0.5
 --- !u!95 &66509275
 Animator:
   serializedVersion: 5
@@ -1142,7 +1142,7 @@ GameObject:
   - component: {fileID: 162304348}
   - component: {fileID: 162304347}
   - component: {fileID: 162304352}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tribeleader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,7 +1284,8 @@ Transform:
   m_LocalPosition: {x: 0.42804527, y: 2.510253, z: -0.07410156}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1131445673}
   m_Father: {fileID: 1294608790}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1324,9 +1325,9 @@ MonoBehaviour:
   animator: {fileID: 162304352}
   target: {fileID: 26182868}
   speed: 1
-  maxRange: 4
+  maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 1
+  attackRange: 0.5
 --- !u!1 &168681602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,6 +6737,97 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40323257, y: 0.49531174}
   m_EdgeRadius: 0
+--- !u!1 &1131445672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131445673}
+  - component: {fileID: 1131445675}
+  - component: {fileID: 1131445674}
+  m_Layer: 7
+  m_Name: HurtPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1131445673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131445672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 162304351}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131445674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131445672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+--- !u!61 &1131445675
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131445672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.009833217, y: -0.000000074505806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5240562, y: 0.62239206}
+  m_EdgeRadius: 0
 --- !u!1 &1138284819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,7 +7131,7 @@ GameObject:
   - component: {fileID: 1210401707}
   - component: {fileID: 1210401706}
   - component: {fileID: 1210401705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tribewoman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7061,9 +7153,9 @@ MonoBehaviour:
   animator: {fileID: 1210401705}
   target: {fileID: 26182868}
   speed: 1
-  maxRange: 4
+  maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 1
+  attackRange: 0.5
 --- !u!95 &1210401705
 Animator:
   serializedVersion: 5
@@ -7464,7 +7556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1294608790}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}

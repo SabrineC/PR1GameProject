@@ -59,6 +59,10 @@ public class EnemyMovement : MonoBehaviour
             {
                 moveDirection = new Vector3(0, Mathf.Sign(moveDirection.y), 0);
             }
+            animator.ResetTrigger("AttackNorth");
+            animator.ResetTrigger("AttackSouth");
+            animator.ResetTrigger("AttackEast");
+            animator.ResetTrigger("AttackWest");
             animator.SetFloat("Horizontal", moveDirection.x);
             animator.SetFloat("Vertical", moveDirection.y);
             transform.position = Vector3.MoveTowards(transform.position, transform.position + moveDirection, speed * Time.deltaTime);
@@ -67,9 +71,30 @@ public class EnemyMovement : MonoBehaviour
         {
             animator.SetFloat("Horizontal", 0);
             animator.SetFloat("Vertical", 0);
+            if (Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+            {
+                if (moveDirection.x > 0)
+                {
+                    animator.SetTrigger("AttackEast");
+                }
+                else if (moveDirection.x < 0)
+                {
+                    animator.SetTrigger("AttackWest");
+                }
+            }
+            else
+            {
+                if (moveDirection.y > 0)
+                {
+                    animator.SetTrigger("AttackNorth");
+                }
+                else if (moveDirection.y < 0)
+                {
+                    animator.SetTrigger("AttackSouth");
+                }
+            }
         }
     }
-
     // Goes back to the home position
     public void GoHome()
     {
