@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 331649449}
   - component: {fileID: 331649448}
   m_Layer: 0
-  m_Name: boat
+  m_Name: Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 591041192}
   - component: {fileID: 591041191}
   m_Layer: 0
-  m_Name: gentle-ocean-waves-birdsong-and-gull-7109
+  m_Name: Waves Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1053,7 +1053,7 @@ GameObject:
   - component: {fileID: 730865099}
   - component: {fileID: 730865098}
   m_Layer: 0
-  m_Name: twee
+  m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1340,7 +1340,7 @@ GameObject:
   - component: {fileID: 855020383}
   - component: {fileID: 855020382}
   m_Layer: 0
-  m_Name: map
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4513,7 +4513,7 @@ GameObject:
   - component: {fileID: 1747400274}
   - component: {fileID: 1747400273}
   m_Layer: 0
-  m_Name: Tribeman_200
+  m_Name: Tribeman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4868,7 +4868,7 @@ GameObject:
   - component: {fileID: 1942289603}
   - component: {fileID: 1942289602}
   m_Layer: 5
-  m_Name: Exit colour
+  m_Name: Exit Colour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

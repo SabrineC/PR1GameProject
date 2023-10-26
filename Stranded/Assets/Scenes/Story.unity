@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 26401877}
   - component: {fileID: 26401876}
   m_Layer: 0
-  m_Name: Storm
+  m_Name: Storm Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,7 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 88725177}
   m_Layer: 0
-  m_Name: level loader
+  m_Name: Level Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 521936479}
   - component: {fileID: 521936478}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Story Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1680227880}
   - component: {fileID: 1680227879}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Skip Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
