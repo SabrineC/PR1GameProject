@@ -495,7 +495,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!95 &66509275
 Animator:
   serializedVersion: 5
@@ -1664,7 +1663,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!114 &162304354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9204,7 +9202,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!95 &969641953
 Animator:
   serializedVersion: 5
@@ -10911,7 +10908,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!212 &1080111144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14108,7 +14104,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!212 &1487036646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14402,7 +14397,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!212 &1504220851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15964,7 +15958,6 @@ MonoBehaviour:
   speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!95 &1688101142
 Animator:
   serializedVersion: 5
