@@ -465,8 +465,8 @@ GameObject:
   m_Component:
   - component: {fileID: 66509279}
   - component: {fileID: 66509278}
+  - component: {fileID: 66509282}
   - component: {fileID: 66509277}
-  - component: {fileID: 66509276}
   - component: {fileID: 66509275}
   - component: {fileID: 66509274}
   - component: {fileID: 66509280}
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 66509275}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
@@ -517,33 +517,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &66509276
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66509273}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &66509277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -576,7 +549,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.08619097}
+  m_Offset: {x: 0.0024526715, y: -0.04518207}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -587,7 +560,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.30761802}
+  m_Size: {x: 0.20679283, y: 0.18459128}
   m_EdgeRadius: 0
 --- !u!212 &66509278
 SpriteRenderer:
@@ -649,12 +622,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66509273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: 5.4, z: -0.07410156}
+  m_LocalPosition: {x: 17.428, y: -14.102484, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 644651804}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 2028278173}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &66509280
@@ -679,12 +652,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 66509273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0cb18e3b279b4f488f15f5bf46a2ef9, type: 3}
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health_bar: {fileID: 66509280}
-  max_health: 100
-  current_health: 100
+  damage: 15
+  playerHealth: {fileID: 542785124}
+--- !u!61 &66509282
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66509273}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.043572143}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.48}
+    newSize: {x: 0.3, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.18462157}
+  m_EdgeRadius: 0
 --- !u!1 &87529005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,42 +1503,16 @@ GameObject:
   - component: {fileID: 162304350}
   - component: {fileID: 162304353}
   - component: {fileID: 162304348}
-  - component: {fileID: 162304347}
   - component: {fileID: 162304352}
+  - component: {fileID: 162304355}
+  - component: {fileID: 162304354}
   m_Layer: 7
   m_Name: Tribeleader
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &162304347
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162304345}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &162304348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1554,7 +1545,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000016391277, y: -0.08659133}
+  m_Offset: {x: -0.00000016391277, y: -0.031588096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1565,7 +1556,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19190595, y: 0.29681736}
+  m_Size: {x: 0.19190595, y: 0.18681085}
   m_EdgeRadius: 0
 --- !u!212 &162304350
 SpriteRenderer:
@@ -1627,13 +1618,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162304345}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.31, y: 17.28, z: -0.07410156}
+  m_LocalPosition: {x: 32.36482, y: 14.614979, z: 0.16274326}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2030515157}
-  - {fileID: 1131445673}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 1047614128}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &162304352
@@ -1671,10 +1661,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 162304352}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
+--- !u!114 &162304354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162304345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+  playerHealth: {fileID: 542785124}
+--- !u!61 &162304355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162304345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.031142056}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.47}
+    newSize: {x: 0.32, y: 0.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.18756676}
+  m_EdgeRadius: 0
 --- !u!1 &168681602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2498,7 +2547,7 @@ GameObject:
   - component: {fileID: 232996954}
   - component: {fileID: 232996956}
   - component: {fileID: 232996955}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3244,7 +3293,7 @@ GameObject:
   - component: {fileID: 308618576}
   - component: {fileID: 308618578}
   - component: {fileID: 308618577}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4121,7 +4170,7 @@ GameObject:
   - component: {fileID: 367071093}
   - component: {fileID: 367071092}
   - component: {fileID: 367071091}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4223,7 +4272,7 @@ GameObject:
   - component: {fileID: 388300328}
   - component: {fileID: 388300327}
   - component: {fileID: 388300326}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5156,7 +5205,7 @@ GameObject:
   - component: {fileID: 533985030}
   - component: {fileID: 533985032}
   - component: {fileID: 533985031}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5318,8 +5367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a198710ff20f043ab4364d50b5ee27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
-  tribeman_health: {fileID: 66509281}
 --- !u!58 &542785122
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7981,7 +8028,7 @@ GameObject:
   - component: {fileID: 761347474}
   - component: {fileID: 761347476}
   - component: {fileID: 761347475}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9112,10 +9159,11 @@ GameObject:
   m_Component:
   - component: {fileID: 969641951}
   - component: {fileID: 969641956}
+  - component: {fileID: 969641958}
   - component: {fileID: 969641955}
-  - component: {fileID: 969641954}
   - component: {fileID: 969641953}
   - component: {fileID: 969641952}
+  - component: {fileID: 969641957}
   m_Layer: 7
   m_Name: Tribeman (2)
   m_TagString: Untagged
@@ -9131,12 +9179,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969641950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.84, y: 5.08, z: -0.07410156}
+  m_LocalPosition: {x: 12.248, y: -6.978647, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 388300325}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 1395703317}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &969641952
@@ -9153,7 +9201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 969641953}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
@@ -9178,33 +9226,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &969641954
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969641950}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &969641955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9237,7 +9258,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.08619097}
+  m_Offset: {x: 0.0024526715, y: -0.041337453}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9248,7 +9269,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.30761802}
+  m_Size: {x: 0.20679283, y: 0.18715404}
   m_EdgeRadius: 0
 --- !u!212 &969641956
 SpriteRenderer:
@@ -9302,6 +9323,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &969641957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969641950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 15
+  playerHealth: {fileID: 542785124}
+--- !u!61 &969641958
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969641950}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.04100903}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.48}
+    newSize: {x: 0.3, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.18781136}
+  m_EdgeRadius: 0
 --- !u!1 &971399270
 GameObject:
   m_ObjectHideFlags: 0
@@ -9390,7 +9470,7 @@ GameObject:
   - component: {fileID: 977887457}
   - component: {fileID: 977887459}
   - component: {fileID: 977887458}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9466,7 +9546,7 @@ GameObject:
   - component: {fileID: 997315555}
   - component: {fileID: 997315557}
   - component: {fileID: 997315556}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9791,14 +9871,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023302427}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.54, y: -1.08, z: -0.051723152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.558022, y: 9.430254, z: -0.12582472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1487036640}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1023826463
 GameObject:
@@ -9812,7 +9892,7 @@ GameObject:
   - component: {fileID: 1023826467}
   - component: {fileID: 1023826466}
   - component: {fileID: 1023826465}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10029,7 +10109,7 @@ GameObject:
   - component: {fileID: 1033264955}
   - component: {fileID: 1033264957}
   - component: {fileID: 1033264956}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10391,6 +10471,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044616345}
   m_CullTransparentMesh: 1
+--- !u!1 &1047614126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047614128}
+  - component: {fileID: 1047614127}
+  m_Layer: 7
+  m_Name: Tribeleader
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!50 &1047614127
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047614126}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!4 &1047614128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047614126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.94518, y: 2.6650214, z: -0.23684481}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 162304351}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1050967142
 GameObject:
   m_ObjectHideFlags: 0
@@ -10552,7 +10692,7 @@ Transform:
   m_Children:
   - {fileID: 542785119}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1054952701
 MonoBehaviour:
@@ -10661,12 +10801,13 @@ GameObject:
   - component: {fileID: 1080111139}
   - component: {fileID: 1080111144}
   - component: {fileID: 1080111143}
+  - component: {fileID: 1080111146}
   - component: {fileID: 1080111142}
-  - component: {fileID: 1080111141}
   - component: {fileID: 1080111140}
+  - component: {fileID: 1080111145}
   m_Layer: 7
   m_Name: Tribewoman (1)
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10679,12 +10820,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080111138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.49, y: 19.35, z: -0.07410156}
+  m_LocalPosition: {x: -0.13715363, y: -0.21709442, z: 0.0022904524}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1998060848}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 1322537707}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1080111140
@@ -10708,33 +10849,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1080111141
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080111138}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1080111142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10767,7 +10881,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.11229154}
+  m_Offset: {x: 0.0024526715, y: -0.06439402}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10778,7 +10892,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.2554169}
+  m_Size: {x: 0.20679283, y: 0.16441296}
   m_EdgeRadius: 0
 --- !u!114 &1080111143
 MonoBehaviour:
@@ -10794,7 +10908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1080111140}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
@@ -10850,6 +10964,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1080111145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080111138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  playerHealth: {fileID: 542785124}
+--- !u!61 &1080111146
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080111138}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.062265895}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.5}
+    newSize: {x: 0.3, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.16647194}
+  m_EdgeRadius: 0
 --- !u!1 &1080996797
 GameObject:
   m_ObjectHideFlags: 0
@@ -11291,98 +11464,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40323257, y: 0.49531174}
   m_EdgeRadius: 0
---- !u!1 &1131445672
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1131445673}
-  - component: {fileID: 1131445675}
-  - component: {fileID: 1131445674}
-  m_Layer: 7
-  m_Name: HurtPlayer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1131445673
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131445672}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 162304351}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1131445674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131445672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
-  playerHealth: {fileID: 0}
---- !u!61 &1131445675
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131445672}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00056078285, y: -0.09504084}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.32006603, y: 0.27640387}
-  m_EdgeRadius: 0
 --- !u!1 &1138284819
 GameObject:
   m_ObjectHideFlags: 0
@@ -11701,7 +11782,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1203150848
 GameObject:
@@ -12173,12 +12254,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 162304351}
-  - {fileID: 66509279}
-  - {fileID: 1688101140}
-  - {fileID: 969641951}
-  - {fileID: 1080111139}
-  - {fileID: 1504220846}
+  - {fileID: 1047614128}
+  - {fileID: 1023302429}
+  - {fileID: 1322537707}
+  - {fileID: 2028278173}
+  - {fileID: 1399278603}
+  - {fileID: 1395703317}
+  - {fileID: 1620755362}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12360,6 +12442,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313943898}
   m_CullTransparentMesh: 1
+--- !u!1 &1322537706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322537707}
+  - component: {fileID: 1322537708}
+  m_Layer: 7
+  m_Name: Tribewoman (1)
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1322537707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322537706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.627153, y: 19.567095, z: -0.07639201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1080111139}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1322537708
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322537706}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1323785200
 GameObject:
   m_ObjectHideFlags: 0
@@ -12971,6 +13113,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362423617}
   m_CullTransparentMesh: 1
+--- !u!1 &1395703316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395703317}
+  - component: {fileID: 1395703318}
+  m_Layer: 7
+  m_Name: Tribeman (2)
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395703317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395703316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.592, y: 12.058647, z: -0.07410156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 969641951}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1395703318
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395703316}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!1 &1399278602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1399278603}
+  - component: {fileID: 1399278604}
+  m_Layer: 7
+  m_Name: Tribeman (1)
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1399278603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399278602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.922, y: 5.598647, z: -0.07410156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1688101140}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1399278604
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399278602}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1399484729
 GameObject:
   m_ObjectHideFlags: 0
@@ -13373,7 +13635,7 @@ GameObject:
   - component: {fileID: 1418940172}
   - component: {fileID: 1418940174}
   - component: {fileID: 1418940173}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13676,14 +13938,14 @@ GameObject:
   - component: {fileID: 1487036640}
   - component: {fileID: 1487036646}
   - component: {fileID: 1487036645}
+  - component: {fileID: 1487036641}
   - component: {fileID: 1487036644}
   - component: {fileID: 1487036643}
   - component: {fileID: 1487036642}
-  - component: {fileID: 1487036641}
   - component: {fileID: 1487036647}
   m_Layer: 7
   m_Name: Tribewoman
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13736,7 +13998,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0005607828, y: -0.09504084}
+  m_Offset: {x: 0.0005607754, y: -0.061513174}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13747,7 +14009,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 0.3}
+  m_Size: {x: 0.4, y: 0.16168213}
   m_EdgeRadius: 0
 --- !u!95 &1487036642
 Animator:
@@ -13802,7 +14064,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.11229154}
+  m_Offset: {x: 0.0024526715, y: -0.059806332}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13813,7 +14075,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.2554169}
+  m_Size: {x: 0.20679283, y: 0.1576848}
   m_EdgeRadius: 0
 --- !u!114 &1487036644
 MonoBehaviour:
@@ -14030,9 +14292,10 @@ GameObject:
   - component: {fileID: 1504220846}
   - component: {fileID: 1504220851}
   - component: {fileID: 1504220850}
+  - component: {fileID: 1504220853}
   - component: {fileID: 1504220849}
-  - component: {fileID: 1504220848}
   - component: {fileID: 1504220847}
+  - component: {fileID: 1504220852}
   m_Layer: 7
   m_Name: Tribewoman (2)
   m_TagString: Untagged
@@ -14048,12 +14311,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504220845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.71, y: 11.26, z: -0.07410156}
+  m_LocalPosition: {x: 12.117999, y: -0.7986469, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 367071090}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 1620755362}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1504220847
@@ -14077,33 +14340,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1504220848
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504220845}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1504220849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14136,7 +14372,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.11229154}
+  m_Offset: {x: 0.0024526715, y: -0.06319713}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14147,7 +14383,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.2554169}
+  m_Size: {x: 0.4, y: 0.15722807}
   m_EdgeRadius: 0
 --- !u!114 &1504220850
 MonoBehaviour:
@@ -14163,7 +14399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1504220847}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
@@ -14219,6 +14455,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1504220852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504220845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  playerHealth: {fileID: 542785124}
+--- !u!61 &1504220853
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504220845}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0646609}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.5}
+    newSize: {x: 0.3, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.1599315}
+  m_EdgeRadius: 0
 --- !u!1 &1517413853
 GameObject:
   m_ObjectHideFlags: 0
@@ -14436,7 +14731,7 @@ GameObject:
   - component: {fileID: 1531240914}
   - component: {fileID: 1531240916}
   - component: {fileID: 1531240915}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14905,7 +15200,7 @@ GameObject:
   - component: {fileID: 1575509541}
   - component: {fileID: 1575509543}
   - component: {fileID: 1575509542}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15206,6 +15501,66 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1620755361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620755362}
+  - component: {fileID: 1620755363}
+  m_Layer: 7
+  m_Name: Tribewoman (2)
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620755362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620755361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.592, y: 12.058647, z: -0.07410156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1504220846}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1620755363
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620755361}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1001 &1635688094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15564,13 +15919,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1688101140}
   - component: {fileID: 1688101145}
+  - component: {fileID: 1688101147}
   - component: {fileID: 1688101144}
-  - component: {fileID: 1688101143}
   - component: {fileID: 1688101142}
   - component: {fileID: 1688101141}
+  - component: {fileID: 1688101146}
   m_Layer: 7
   m_Name: Tribeman (1)
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15583,12 +15939,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688101139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.59, y: 11.86, z: -0.07410156}
+  m_LocalPosition: {x: 7.668, y: 6.2613525, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1023826464}
-  m_Father: {fileID: 1294608790}
+  m_Father: {fileID: 1399278603}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1688101141
@@ -15605,7 +15961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1688101142}
   target: {fileID: 0}
-  speed: 2
+  speed: 1
   maxRange: 3
   stoppingThreshold: 0.1
   attackRange: 0.5
@@ -15630,33 +15986,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1688101143
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688101139}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &1688101144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15689,7 +16018,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0024526715, y: -0.08619097}
+  m_Offset: {x: 0.0024526715, y: -0.03877435}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15700,7 +16029,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20679283, y: 0.30761802}
+  m_Size: {x: 0.20679283, y: 0.17690192}
   m_EdgeRadius: 0
 --- !u!212 &1688101145
 SpriteRenderer:
@@ -15754,6 +16083,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1688101146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688101139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 15
+  playerHealth: {fileID: 542785124}
+--- !u!61 &1688101147
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688101139}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.038445838}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.48}
+    newSize: {x: 0.3, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.17755906}
+  m_EdgeRadius: 0
 --- !u!1001 &1698196787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16082,7 +16470,7 @@ GameObject:
   - component: {fileID: 1721487937}
   - component: {fileID: 1721487939}
   - component: {fileID: 1721487938}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16867,7 +17255,7 @@ GameObject:
   - component: {fileID: 1779494300}
   - component: {fileID: 1779494302}
   - component: {fileID: 1779494301}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17498,7 +17886,7 @@ GameObject:
   - component: {fileID: 1816332606}
   - component: {fileID: 1816332608}
   - component: {fileID: 1816332607}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65709,7 +66097,7 @@ GameObject:
   - component: {fileID: 1998060851}
   - component: {fileID: 1998060850}
   - component: {fileID: 1998060849}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65799,6 +66187,66 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 5
   m_TargetDisplay: 0
+--- !u!1 &2028278172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028278173}
+  - component: {fileID: 2028278174}
+  m_Layer: 7
+  m_Name: Tribeman
+  m_TagString: Enemies
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028278173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028278172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.492001, y: 19.502483, z: -0.07410156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 66509279}
+  m_Father: {fileID: 1294608790}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &2028278174
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028278172}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2030515156
 GameObject:
   m_ObjectHideFlags: 0
@@ -65811,7 +66259,7 @@ GameObject:
   - component: {fileID: 2030515160}
   - component: {fileID: 2030515159}
   - component: {fileID: 2030515158}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66980,7 +67428,7 @@ GameObject:
   - component: {fileID: 2137899678}
   - component: {fileID: 2137899680}
   - component: {fileID: 2137899679}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67612,7 +68060,7 @@ GameObject:
   - component: {fileID: 2146259108}
   - component: {fileID: 2146259110}
   - component: {fileID: 2146259109}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
