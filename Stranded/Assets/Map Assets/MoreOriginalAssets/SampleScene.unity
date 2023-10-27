@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 131221015}
 --- !u!212 &131221018
 SpriteRenderer:
@@ -809,12 +809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df50cb166a6a6841928741acccab86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  target: {fileID: 0}
-  speed: 0
-  maxRange: 0
-  stoppingThreshold: 0.1
-  attackRange: 0.5
 --- !u!212 &162304350
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1589,7 +1583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 345789443}
 --- !u!212 &345789445
 SpriteRenderer:
@@ -2129,7 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 583346416}
 --- !u!212 &583346413
 SpriteRenderer:
@@ -2387,7 +2381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 584006911}
 --- !u!212 &584006914
 SpriteRenderer:
@@ -2587,7 +2581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 669217075}
 --- !u!212 &669217078
 SpriteRenderer:
@@ -2782,7 +2776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 835306998}
 --- !u!212 &835307001
 SpriteRenderer:
@@ -3387,7 +3381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 1290588455}
 --- !u!212 &1290588458
 SpriteRenderer:
@@ -3582,7 +3576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 1335235883}
 --- !u!212 &1335235885
 SpriteRenderer:
@@ -3946,7 +3940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 1543140541}
 --- !u!212 &1543140544
 SpriteRenderer:
@@ -4081,7 +4075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 1758834346}
 --- !u!212 &1758834349
 SpriteRenderer:
@@ -51749,7 +51743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 2073928760}
 --- !u!212 &2073928763
 SpriteRenderer:
@@ -51944,7 +51938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 2089174108}
 --- !u!212 &2089174110
 SpriteRenderer:
@@ -52144,7 +52138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 2117032711}
 --- !u!212 &2117032713
 SpriteRenderer:
@@ -52339,7 +52333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 2141451029}
 --- !u!212 &2141451031
 SpriteRenderer:
@@ -52534,7 +52528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eda07faa25f143884a87673c581df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  moveSpeed: 1
   animator: {fileID: 2146307979}
 --- !u!212 &2146307982
 SpriteRenderer:
