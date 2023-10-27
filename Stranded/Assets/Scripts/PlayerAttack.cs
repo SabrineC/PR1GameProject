@@ -6,10 +6,17 @@ public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
 
-    // Attack variables
-    public Transform attack_point;
-    public float attack_range = 0.5f;
-    public LayerMask enemy_layer;
+    public int damage;
+    public EntityAttributes entity_attributes;
+
+    // If enemies are in range deals damage
+    private void OnCollisionEnter2D(Collision2D col) 
+    {
+        if(col.gameObject.tag == "Enemies")
+        {
+            entity_attributes.Damaged(damage);
+        }
+    }
 
     void Update()
     {
@@ -23,9 +30,6 @@ public class PlayerAttack : MonoBehaviour
     {
         // Link animation to attack
         animator.SetTrigger("Attack");
-
-        // If enemies are in range deals damage
-
     }
 }
 

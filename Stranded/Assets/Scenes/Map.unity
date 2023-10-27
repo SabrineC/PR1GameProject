@@ -5233,7 +5233,6 @@ GameObject:
   - component: {fileID: 542785128}
   - component: {fileID: 542785127}
   - component: {fileID: 542785126}
-  - component: {fileID: 542785125}
   - component: {fileID: 542785124}
   - component: {fileID: 542785123}
   - component: {fileID: 542785122}
@@ -5416,24 +5415,6 @@ MonoBehaviour:
   health_bar: {fileID: 1031761682}
   max_health: 100
   current_health: 100
---- !u!114 &542785125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542785118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cca46840963383419558c9af5addc6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 542785126}
-  attack_point: {fileID: 0}
-  attack_range: 0.5
-  enemy_layer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!95 &542785126
 Animator:
   serializedVersion: 5
@@ -8552,7 +8533,7 @@ GameObject:
   - component: {fileID: 858593601}
   - component: {fileID: 858593603}
   - component: {fileID: 858593602}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8593,7 +8574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 858593603}
 --- !u!114 &858593603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9694,7 +9675,7 @@ GameObject:
   - component: {fileID: 1017202675}
   - component: {fileID: 1017202677}
   - component: {fileID: 1017202676}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9769,9 +9750,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1023302429}
   - component: {fileID: 1023302428}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tribewoman
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10522,6 +10503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054952700}
   - component: {fileID: 1054952699}
+  - component: {fileID: 1054952701}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -10572,6 +10554,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1054952701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054952698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cca46840963383419558c9af5addc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 25
+  entity_attributes: {fileID: 1487036647}
 --- !u!1 &1079612653
 GameObject:
   m_ObjectHideFlags: 0
@@ -13683,6 +13680,7 @@ GameObject:
   - component: {fileID: 1487036643}
   - component: {fileID: 1487036642}
   - component: {fileID: 1487036641}
+  - component: {fileID: 1487036647}
   m_Layer: 7
   m_Name: Tribewoman
   m_TagString: Untagged
@@ -13901,6 +13899,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1487036647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487036639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 858593602}
+  max_health: 100
+  current_health: 75
 --- !u!1001 &1496508229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16226,7 +16239,7 @@ GameObject:
   - component: {fileID: 1723367262}
   - component: {fileID: 1723367264}
   - component: {fileID: 1723367263}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Health Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66670,7 +66683,7 @@ GameObject:
   - component: {fileID: 2101721793}
   - component: {fileID: 2101721792}
   - component: {fileID: 2101721791}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
