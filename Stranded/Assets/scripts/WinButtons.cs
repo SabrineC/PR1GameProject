@@ -3,13 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DeathSettings : MonoBehaviour
+public class WinButtons : MonoBehaviour
 {
-
-    public void PlayAgain()
-    {
-        SceneManager.LoadScene(2);
-    }
    public void ExitToMenu()
     {
         SceneManager.LoadScene(0);
