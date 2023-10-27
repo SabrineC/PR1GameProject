@@ -5,31 +5,48 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
-
     public int damage;
     public EntityAttributes entity_attributes;
 
-    // If enemies are in range deals damage
-    private void OnCollisionEnter2D(Collision2D col) 
-    {
-        if(col.gameObject.tag == "Enemies")
-        {
-            entity_attributes.Damaged(damage);
-        }
-    }
+    private bool isAttacking = false;
+    private bool inCollider = false;
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
             Attack();
+            isAttacking = true;
+        }
+
+        // If enemies are in range and attack input is pressed deals damage
+        if(inCollider && isAttacking)
+        {
+            entity_attributes.Damaged(damage);
+            isAttacking = false;
         }
     }
-
     void Attack()
     {
         // Link animation to attack
         animator.SetTrigger("Attack");
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D col) 
+    {
+        if (col.gameObject.CompareTag("Enemies"))
+        {
+            inCollider = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Enemies"))
+        {
+            inCollider = false;
+        }
     }
 }
 
