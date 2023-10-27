@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Select.unity
     guid: b6f70e04369354e8a9d5b8a4471e8bc7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Death Scene.unity
     guid: 43e523df223dc8e459ac892f1891649a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Win Scene.unity
     guid: e43120c6c28a64c41a91cc142072cc2a
   m_configObjects: {}

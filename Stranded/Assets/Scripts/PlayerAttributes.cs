@@ -38,6 +38,6 @@ public class PlayerAttributes : MonoBehaviour
     void Death()
     {
         Destroy(gameObject);
-        SceneManager.LoadScene("Death Scene");
+        SceneManager.LoadScene(3);
     }
 }
