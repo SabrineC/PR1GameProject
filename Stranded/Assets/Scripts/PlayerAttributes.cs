@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerAttributes : MonoBehaviour
 {
@@ -26,28 +27,17 @@ public class PlayerAttributes : MonoBehaviour
     public void Damaged(int damage)
     {
         current_health -= damage;
+        health_bar.SetHealth(current_health);
 
-       /* health_bar.SetHealth(current_health);
         if (current_health <= 0 )
         {
             Death();
-        }*/
-
-    
+        }
     } 
-/*
+
     void Death()
     {
         Destroy(gameObject);
+        SceneManager.LoadScene("Death Scene");
     }
-  
-    void End()
-    {
-        if ( Death == true)
-        {
-            run(Endgame);
-        }
-    }*/
-
-    
 }

@@ -21,7 +21,7 @@ public class AnimalMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>(); 
         animator = GetComponent<Animator>(); 
-        ChooseNewDirection(); // Calling so that entity changes direction
+        ChooseNewDirection(); 
         randomOffset = Random.Range(0f, 5f); // Creates random offset so that all entities do not move at same time
     }
 
@@ -30,8 +30,8 @@ public class AnimalMovement : MonoBehaviour
     {
         if (isWalking)
         {
-            MoveEntity(currentDirection); // Calling to move the entity in the direction
-            UpdateAnimation(currentDirection); // Calling to update the animation based on the direction
+            MoveEntity(currentDirection); 
+            UpdateAnimation(currentDirection); 
             walkingTime += Time.deltaTime;
 
             // Checks to see if it's time to stop walking

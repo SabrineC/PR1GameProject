@@ -2,25 +2,49 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackPlayer : MonoBehaviour
+public class HurtPlayer : MonoBehaviour
 {
     public int damage;
-    // Start is called before the first frame update
-    void Start()
+    private float cooldownTime = 1f; // Cooldown time before attack
+    public PlayerAttributes playerHealth; // Getting player health
+    private bool canDamage = true; // Checks if enemy can damage
+    private bool playerInsideCollider = false; // Checks if player is inside collider
+
+    // Checks if player is inside collider
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerInsideCollider = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    // Checks if player is outside collider
+    private void OnTriggerExit2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerInsideCollider = false;
+        }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void Update()
     {
-        if(gameObject.tag == "Player") {
-            other.gameObject.GetComponent<PlayerAttributes>().Damaged(damage);
+        if (playerInsideCollider && canDamage)
+        {
+            StartCoroutine(DealDamageWithDelay());
+        }
+    }
+
+    // Enemy deals damaage after delay
+    private IEnumerator DealDamageWithDelay()
+    {
+        if (canDamage)
+        {
+            canDamage = false;
+            yield return new WaitForSeconds(cooldownTime);
+            playerHealth.Damaged(damage);
+            canDamage = true;
         }
     }
 }
