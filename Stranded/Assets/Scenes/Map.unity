@@ -471,9 +471,10 @@ GameObject:
   - component: {fileID: 66509274}
   - component: {fileID: 66509280}
   - component: {fileID: 66509281}
+  - component: {fileID: 66509283}
   m_Layer: 7
   m_Name: Tribeman
-  m_TagString: Enemies
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -701,6 +702,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.18462157}
   m_EdgeRadius: 0
+--- !u!114 &66509283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66509273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 66509280}
+  max_health: 120
+  current_health: 120
 --- !u!1 &87529005
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +730,7 @@ GameObject:
   - component: {fileID: 87529007}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1505,9 +1521,10 @@ GameObject:
   - component: {fileID: 162304352}
   - component: {fileID: 162304355}
   - component: {fileID: 162304354}
+  - component: {fileID: 162304356}
   m_Layer: 7
   m_Name: Tribeleader
-  m_TagString: Enemies
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1722,6 +1739,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.18756676}
   m_EdgeRadius: 0
+--- !u!114 &162304356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162304345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 997315556}
+  max_health: 160
+  current_health: 160
 --- !u!1 &168681602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,7 +2579,7 @@ GameObject:
   - component: {fileID: 232996955}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2586,7 +2618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 232996956}
 --- !u!114 &232996956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3293,7 +3325,7 @@ GameObject:
   - component: {fileID: 308618577}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4170,7 +4202,7 @@ GameObject:
   - component: {fileID: 367071091}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4272,7 +4304,7 @@ GameObject:
   - component: {fileID: 388300326}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5205,7 +5237,7 @@ GameObject:
   - component: {fileID: 533985031}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6711,7 +6743,7 @@ GameObject:
   - component: {fileID: 644651805}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7527,7 +7559,7 @@ GameObject:
   - component: {fileID: 691399298}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7969,7 +8001,7 @@ GameObject:
   - component: {fileID: 761347475}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8521,7 +8553,7 @@ GameObject:
   - component: {fileID: 858593602}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9103,9 +9135,10 @@ GameObject:
   - component: {fileID: 969641953}
   - component: {fileID: 969641952}
   - component: {fileID: 969641957}
+  - component: {fileID: 969641959}
   m_Layer: 7
   m_Name: Tribeman (2)
-  m_TagString: Untagged
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9320,6 +9353,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.18781136}
   m_EdgeRadius: 0
+--- !u!114 &969641959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969641950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1575509542}
+  max_health: 120
+  current_health: 120
 --- !u!1 &971399270
 GameObject:
   m_ObjectHideFlags: 0
@@ -9410,7 +9458,7 @@ GameObject:
   - component: {fileID: 977887458}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9486,7 +9534,7 @@ GameObject:
   - component: {fileID: 997315556}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9525,7 +9573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 997315557}
 --- !u!114 &997315557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9695,7 +9743,7 @@ GameObject:
   - component: {fileID: 1017202676}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9770,7 +9818,7 @@ GameObject:
   - component: {fileID: 1023302428}
   m_Layer: 7
   m_Name: Tribewoman
-  m_TagString: Enemies
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9832,7 +9880,7 @@ GameObject:
   - component: {fileID: 1023826465}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10049,7 +10097,7 @@ GameObject:
   - component: {fileID: 1033264956}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10346,7 +10394,7 @@ GameObject:
   - component: {fileID: 1044616347}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10421,7 +10469,7 @@ GameObject:
   - component: {fileID: 1047614127}
   m_Layer: 7
   m_Name: Tribeleader
-  m_TagString: Enemies
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10728,9 +10776,10 @@ GameObject:
   - component: {fileID: 1080111142}
   - component: {fileID: 1080111140}
   - component: {fileID: 1080111145}
+  - component: {fileID: 1080111147}
   m_Layer: 7
   m_Name: Tribewoman (1)
-  m_TagString: Enemies
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10945,6 +10994,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.16647194}
   m_EdgeRadius: 0
+--- !u!114 &1080111147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080111138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1779494301}
+  max_health: 80
+  current_health: 80
 --- !u!1 &1080996797
 GameObject:
   m_ObjectHideFlags: 0
@@ -12376,7 +12440,7 @@ GameObject:
   - component: {fileID: 1322537708}
   m_Layer: 7
   m_Name: Tribewoman (1)
-  m_TagString: Enemies
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13047,7 +13111,7 @@ GameObject:
   - component: {fileID: 1395703318}
   m_Layer: 7
   m_Name: Tribeman (2)
-  m_TagString: Enemies
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13107,7 +13171,7 @@ GameObject:
   - component: {fileID: 1399278604}
   m_Layer: 7
   m_Name: Tribeman (1)
-  m_TagString: Enemies
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13559,7 +13623,7 @@ GameObject:
   - component: {fileID: 1418940173}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13708,7 +13772,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1466628494}
   - component: {fileID: 1466628496}
-  - component: {fileID: 1466628495}
+  - component: {fileID: 1466628498}
+  - component: {fileID: 1466628503}
+  - component: {fileID: 1466628502}
+  - component: {fileID: 1466628501}
+  - component: {fileID: 1466628497}
+  - component: {fileID: 1466628500}
+  - component: {fileID: 1466628499}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
@@ -13731,21 +13801,6 @@ Transform:
   m_Father: {fileID: 1054952700}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1466628495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466628493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cca46840963383419558c9af5addc6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 542785126}
-  damage: 10
-  entity_attributes: {fileID: 1487036647}
 --- !u!61 &1466628496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13791,6 +13846,111 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.35478306}
   m_EdgeRadius: 0
+--- !u!114 &1466628497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9cee55ab95e97e4c89b409c121cde64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1487036647}
+--- !u!114 &1466628498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630f32ffb6b1994096932d2f026d637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 162304356}
+--- !u!114 &1466628499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29aefef1666d81a419011fb0e8f4aafc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1504220854}
+--- !u!114 &1466628500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9c9e851d7b41a42994ab604feae5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1080111147}
+--- !u!114 &1466628501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81aaaf778c52b9548b9fb0580d5a4259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 969641959}
+--- !u!114 &1466628502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42ef6b79880424944af1de8724d1f7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1688101148}
+--- !u!114 &1466628503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17439932b693bfa42b697352c6f98304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 66509283}
 --- !u!1001 &1467034466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13960,7 +14120,7 @@ GameObject:
   - component: {fileID: 1487036647}
   m_Layer: 7
   m_Name: Tribewoman
-  m_TagString: Enemies
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14188,8 +14348,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 858593602}
-  max_health: 75
-  current_health: 75
+  max_health: 80
+  current_health: 80
 --- !u!1001 &1496508229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14310,9 +14470,10 @@ GameObject:
   - component: {fileID: 1504220849}
   - component: {fileID: 1504220847}
   - component: {fileID: 1504220852}
+  - component: {fileID: 1504220854}
   m_Layer: 7
   m_Name: Tribewoman (2)
-  m_TagString: Untagged
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14527,6 +14688,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.28, y: 0.1599315}
   m_EdgeRadius: 0
+--- !u!114 &1504220854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504220845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 2146259109}
+  max_health: 80
+  current_health: 80
 --- !u!1 &1517413853
 GameObject:
   m_ObjectHideFlags: 0
@@ -14746,7 +14922,7 @@ GameObject:
   - component: {fileID: 1531240915}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15215,7 +15391,7 @@ GameObject:
   - component: {fileID: 1575509542}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15254,7 +15430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1575509543}
 --- !u!114 &1575509543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15526,7 +15702,7 @@ GameObject:
   - component: {fileID: 1620755363}
   m_Layer: 7
   m_Name: Tribewoman (2)
-  m_TagString: Enemies
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15937,9 +16113,10 @@ GameObject:
   - component: {fileID: 1688101142}
   - component: {fileID: 1688101141}
   - component: {fileID: 1688101146}
+  - component: {fileID: 1688101148}
   m_Layer: 7
   m_Name: Tribeman (1)
-  m_TagString: Enemies
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16154,6 +16331,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.17755906}
   m_EdgeRadius: 0
+--- !u!114 &1688101148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688101139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 232996955}
+  max_health: 120
+  current_health: 120
 --- !u!1001 &1698196787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16484,7 +16676,7 @@ GameObject:
   - component: {fileID: 1721487938}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribeman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16641,7 +16833,7 @@ GameObject:
   - component: {fileID: 1723367263}
   m_Layer: 7
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17269,7 +17461,7 @@ GameObject:
   - component: {fileID: 1779494301}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17308,7 +17500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1779494302}
 --- !u!114 &1779494302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17900,7 +18092,7 @@ GameObject:
   - component: {fileID: 1816332607}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribeman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66111,7 +66303,7 @@ GameObject:
   - component: {fileID: 1998060849}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66211,7 +66403,7 @@ GameObject:
   - component: {fileID: 2028278174}
   m_Layer: 7
   m_Name: Tribeman
-  m_TagString: Enemies
+  m_TagString: Tribeman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66273,7 +66465,7 @@ GameObject:
   - component: {fileID: 2030515158}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribeleader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67145,7 +67337,7 @@ GameObject:
   - component: {fileID: 2101721791}
   m_Layer: 7
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Tribewoman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67442,7 +67634,7 @@ GameObject:
   - component: {fileID: 2137899679}
   m_Layer: 7
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Tribewoman1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68074,7 +68266,7 @@ GameObject:
   - component: {fileID: 2146259109}
   m_Layer: 7
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Tribewoman2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68113,7 +68305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 2146259110}
 --- !u!114 &2146259110
 MonoBehaviour:
   m_ObjectHideFlags: 0

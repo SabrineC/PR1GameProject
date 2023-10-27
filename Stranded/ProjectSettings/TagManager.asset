@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemies
+  - Tribeleader
+  - Tribewoman
+  - Tribewoman1
+  - Tribewoman2
+  - Tribeman
+  - Tribeman1
+  - Tribeman2
   layers:
   - Default
   - TransparentFX
