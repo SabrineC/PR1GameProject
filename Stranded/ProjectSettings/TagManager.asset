@@ -5,6 +5,28 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemies
+  - Tribeleader
+  - Tribewoman
+  - Tribewoman1
+  - Tribewoman2
+  - Tribeman
+  - Tribeman1
+  - Tribeman2
+  - Cow
+  - Cow1
+  - Cow2
+  - Chicken
+  - Chicken1
+  - Chicken2
+  - Chicken3
+  - Chicken4
+  - Chicken5
+  - Chicken6
+  - Sheep
+  - Sheep1
+  - Sheep2
+  - Sheep3
+  - Sheep4
   layers:
   - Default
   - TransparentFX

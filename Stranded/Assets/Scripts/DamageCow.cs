@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class Cow : MonoBehaviour
 {
     public Animator animator;
     public int damage;
@@ -35,7 +35,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col) 
     {
-        if (col.gameObject.CompareTag("Enemies"))
+        if (col.gameObject.CompareTag("Cow"))
         {
             inCollider = true;
         }
@@ -43,7 +43,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Enemies"))
+        if (col.gameObject.CompareTag("Cow"))
         {
             inCollider = false;
         }
