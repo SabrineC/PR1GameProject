@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 19939493}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Sheep4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 19985147}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Cow2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 23521498}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Cow1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 45082485}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 45082486}
 --- !u!114 &45082486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 92146771}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Sheep4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 130508261}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Cow1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,9 +1143,10 @@ GameObject:
   - component: {fileID: 131221016}
   - component: {fileID: 131221015}
   - component: {fileID: 131221019}
+  - component: {fileID: 131221020}
   m_Layer: 3
   m_Name: Chicken (1)
-  m_TagString: Untagged
+  m_TagString: Chicken1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1325,6 +1326,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &131221020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131221013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1753000336}
+  max_health: 50
+  current_health: 50
 --- !u!1 &137027649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,7 +1354,7 @@ GameObject:
   - component: {fileID: 137027651}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Cow2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1377,7 +1393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 137027652}
 --- !u!114 &137027652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1994,9 +2010,10 @@ GameObject:
   - component: {fileID: 193857430}
   - component: {fileID: 193857429}
   - component: {fileID: 193857433}
+  - component: {fileID: 193857434}
   m_Layer: 3
   m_Name: Chicken (6)
-  m_TagString: Untagged
+  m_TagString: Chicken6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2176,6 +2193,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &193857434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193857427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 950882616}
+  max_health: 50
+  current_health: 50
 --- !u!1 &199612243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2222,7 @@ GameObject:
   - component: {fileID: 199612245}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2296,7 +2328,7 @@ GameObject:
   - component: {fileID: 216416131}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2683,7 +2715,7 @@ GameObject:
   - component: {fileID: 238485658}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2760,7 +2792,7 @@ GameObject:
   - component: {fileID: 261345636}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Sheep1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3224,7 +3256,7 @@ GameObject:
   - component: {fileID: 304349587}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3547,7 +3579,7 @@ GameObject:
   - component: {fileID: 315217939}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Sheep1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3586,7 +3618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 315217940}
 --- !u!114 &315217940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4006,9 +4038,10 @@ GameObject:
   - component: {fileID: 345789443}
   - component: {fileID: 345789442}
   - component: {fileID: 345789441}
+  - component: {fileID: 345789446}
   m_Layer: 3
   m_Name: Sheep (3)
-  m_TagString: Untagged
+  m_TagString: Sheep3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4188,6 +4221,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &345789446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345789439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 390333566}
+  max_health: 100
+  current_health: 100
 --- !u!1 &367071089
 GameObject:
   m_ObjectHideFlags: 0
@@ -4405,7 +4453,7 @@ GameObject:
   - component: {fileID: 390333566}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Sheep3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4444,7 +4492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 390333567}
 --- !u!114 &390333567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4510,7 +4558,7 @@ GameObject:
   - component: {fileID: 411005074}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4937,7 +4985,7 @@ GameObject:
   - component: {fileID: 510616676}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Sheep2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5013,7 +5061,7 @@ GameObject:
   - component: {fileID: 517639104}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Cow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5534,7 +5582,7 @@ GameObject:
   - component: {fileID: 556314315}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Sheep1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5956,7 +6004,7 @@ GameObject:
   - component: {fileID: 579734131}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Cow1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6058,9 +6106,10 @@ GameObject:
   - component: {fileID: 583346415}
   - component: {fileID: 583346416}
   - component: {fileID: 583346417}
+  - component: {fileID: 583346418}
   m_Layer: 3
   m_Name: Cow
-  m_TagString: Untagged
+  m_TagString: Cow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6240,6 +6289,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.79030406, y: 0.4995469}
   m_EdgeRadius: 0
+--- !u!114 &583346418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583346411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 2143819283}
+  max_health: 150
+  current_health: 150
 --- !u!1 &584006909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6254,9 +6318,10 @@ GameObject:
   - component: {fileID: 584006912}
   - component: {fileID: 584006911}
   - component: {fileID: 584006915}
+  - component: {fileID: 584006916}
   m_Layer: 3
   m_Name: Chicken (2)
-  m_TagString: Untagged
+  m_TagString: Chicken2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6436,6 +6501,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &584006916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584006909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1598500183}
+  max_health: 50
+  current_health: 50
 --- !u!224 &587507762 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6957991914312974401, guid: 9bd104783c3206141b455ce2d652e4e5, type: 3}
@@ -6531,7 +6611,7 @@ GameObject:
   - component: {fileID: 603402612}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6844,7 +6924,7 @@ GameObject:
   - component: {fileID: 655307643}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6998,9 +7078,10 @@ GameObject:
   - component: {fileID: 669217076}
   - component: {fileID: 669217075}
   - component: {fileID: 669217079}
+  - component: {fileID: 669217080}
   m_Layer: 3
   m_Name: Chicken (4)
-  m_TagString: Untagged
+  m_TagString: Chicken4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7180,6 +7261,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &669217080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669217073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 45082485}
+  max_health: 50
+  current_health: 50
 --- !u!1 &676102293
 GameObject:
   m_ObjectHideFlags: 0
@@ -7193,7 +7289,7 @@ GameObject:
   - component: {fileID: 676102295}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Cow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7364,9 +7460,10 @@ GameObject:
   - component: {fileID: 687782380}
   - component: {fileID: 687782379}
   - component: {fileID: 687782383}
+  - component: {fileID: 687782384}
   m_Layer: 3
   m_Name: Chicken (5)
-  m_TagString: Untagged
+  m_TagString: Chicken5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7546,6 +7643,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &687782384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687782377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1979310673}
+  max_health: 50
+  current_health: 50
 --- !u!1 &691399296
 GameObject:
   m_ObjectHideFlags: 0
@@ -7663,7 +7775,7 @@ GameObject:
   - component: {fileID: 692053049}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Sheep2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7702,7 +7814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 692053050}
 --- !u!114 &692053050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8078,7 +8190,7 @@ GameObject:
   - component: {fileID: 768034333}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Cow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8179,7 +8291,7 @@ GameObject:
   - component: {fileID: 778448575}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Sheep2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8256,7 +8368,7 @@ GameObject:
   - component: {fileID: 784804201}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Sheep3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8358,9 +8470,10 @@ GameObject:
   - component: {fileID: 835306999}
   - component: {fileID: 835306998}
   - component: {fileID: 835307002}
+  - component: {fileID: 835307003}
   m_Layer: 3
   m_Name: Chicken (3)
-  m_TagString: Untagged
+  m_TagString: Chicken3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8540,6 +8653,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &835307003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835306996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1034971116}
+  max_health: 50
+  current_health: 50
 --- !u!1 &858593600
 GameObject:
   m_ObjectHideFlags: 0
@@ -8658,7 +8786,7 @@ GameObject:
   - component: {fileID: 881960296}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Sheep4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8953,7 +9081,7 @@ GameObject:
   - component: {fileID: 950882616}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8992,7 +9120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 950882617}
 --- !u!114 &950882617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9057,7 +9185,7 @@ GameObject:
   - component: {fileID: 956203451}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10173,7 +10301,7 @@ GameObject:
   - component: {fileID: 1034971116}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10212,7 +10340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1034971117}
 --- !u!114 &1034971117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10531,7 +10659,7 @@ GameObject:
   - component: {fileID: 1050967144}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Sheep2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10693,7 +10821,7 @@ GameObject:
   - component: {fileID: 1079612655}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11157,7 +11285,7 @@ GameObject:
   - component: {fileID: 1098394403}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Sheep3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11233,7 +11361,7 @@ GameObject:
   - component: {fileID: 1120816887}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Sheep3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11540,7 +11668,7 @@ GameObject:
   - component: {fileID: 1140949756}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Sheep1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11995,7 +12123,7 @@ GameObject:
   - component: {fileID: 1231512914}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12264,7 +12392,7 @@ GameObject:
   - component: {fileID: 1300504408}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12501,7 +12629,7 @@ GameObject:
   - component: {fileID: 1323785202}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12833,7 +12961,7 @@ GameObject:
   - component: {fileID: 1350827246}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12935,7 +13063,7 @@ GameObject:
   - component: {fileID: 1352901031}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13547,7 +13675,7 @@ GameObject:
   - component: {fileID: 1409388545}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13779,6 +13907,21 @@ GameObject:
   - component: {fileID: 1466628497}
   - component: {fileID: 1466628500}
   - component: {fileID: 1466628499}
+  - component: {fileID: 1466628518}
+  - component: {fileID: 1466628517}
+  - component: {fileID: 1466628516}
+  - component: {fileID: 1466628515}
+  - component: {fileID: 1466628514}
+  - component: {fileID: 1466628513}
+  - component: {fileID: 1466628512}
+  - component: {fileID: 1466628511}
+  - component: {fileID: 1466628510}
+  - component: {fileID: 1466628509}
+  - component: {fileID: 1466628508}
+  - component: {fileID: 1466628507}
+  - component: {fileID: 1466628506}
+  - component: {fileID: 1466628505}
+  - component: {fileID: 1466628504}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
@@ -13951,6 +14094,231 @@ MonoBehaviour:
   animator: {fileID: 542785126}
   damage: 10
   entity_attributes: {fileID: 66509283}
+--- !u!114 &1466628504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ab3e84889de204787b66d01b96f418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1793818689}
+--- !u!114 &1466628505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa79a185395514543921be08082d9aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 345789446}
+--- !u!114 &1466628506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ae32628cfa8f245af1571b6a5bbe38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 2117032714}
+--- !u!114 &1466628507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78523f4ac9ce854885f19c44a66eb61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 2089174111}
+--- !u!114 &1466628508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b49a8d8cf824634086064972f437f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 2141451032}
+--- !u!114 &1466628509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b611138ab94f124488e905d558f40b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 2146307983}
+--- !u!114 &1466628510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffdedfe35bd7a840a9faea820111c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 2073928764}
+--- !u!114 &1466628511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65ebe93f7034e04f933aba44512b611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 583346418}
+--- !u!114 &1466628512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f104e80d05106a748830d15f3a66d273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 193857434}
+--- !u!114 &1466628513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3745bf7ed4ebcf4a9fe711a7d84617e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 687782384}
+--- !u!114 &1466628514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e658619b218e4d9a561e6127f36bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 669217080}
+--- !u!114 &1466628515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f43d7a5ec44444f83f085ed8b23010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 835307003}
+--- !u!114 &1466628516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7971c0452cedfc1419198f0870fcfd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 584006916}
+--- !u!114 &1466628517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd5be6fbfbd35745afd97915baf12fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 131221020}
+--- !u!114 &1466628518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466628493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d08c6ea13c4174e9b1e77cf3e2967f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 542785126}
+  damage: 10
+  entity_attributes: {fileID: 1758834352}
 --- !u!1001 &1467034466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14716,7 +15084,7 @@ GameObject:
   - component: {fileID: 1517413855}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Sheep4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14755,7 +15123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1517413856}
 --- !u!114 &1517413856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14821,7 +15189,7 @@ GameObject:
   - component: {fileID: 1525024155}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Chicken1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15133,7 +15501,7 @@ GameObject:
   - component: {fileID: 1540950398}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15495,7 +15863,7 @@ GameObject:
   - component: {fileID: 1586575455}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Cow1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15534,7 +15902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1586575456}
 --- !u!114 &1586575456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15599,7 +15967,7 @@ GameObject:
   - component: {fileID: 1598500183}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15638,7 +16006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1598500184}
 --- !u!114 &1598500184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15868,7 +16236,7 @@ GameObject:
   - component: {fileID: 1643551160}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16757,7 +17125,7 @@ GameObject:
   - component: {fileID: 1723130607}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17161,7 +17529,7 @@ GameObject:
   - component: {fileID: 1753000336}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17200,7 +17568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1753000337}
 --- !u!114 &1753000337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17266,9 +17634,10 @@ GameObject:
   - component: {fileID: 1758834347}
   - component: {fileID: 1758834346}
   - component: {fileID: 1758834351}
+  - component: {fileID: 1758834352}
   m_Layer: 3
   m_Name: Chicken
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17448,6 +17817,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1758834352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758834345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1918855569}
+  max_health: 50
+  current_health: 50
 --- !u!1 &1779494299
 GameObject:
   m_ObjectHideFlags: 0
@@ -17565,7 +17949,7 @@ GameObject:
   - component: {fileID: 1791023916}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Cow2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17642,9 +18026,10 @@ GameObject:
   - component: {fileID: 1793818686}
   - component: {fileID: 1793818685}
   - component: {fileID: 1793818684}
+  - component: {fileID: 1793818689}
   m_Layer: 3
   m_Name: Sheep (4)
-  m_TagString: Untagged
+  m_TagString: Sheep4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17824,6 +18209,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1793818689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793818682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1517413855}
+  max_health: 100
+  current_health: 100
 --- !u!1 &1797875903
 GameObject:
   m_ObjectHideFlags: 0
@@ -17837,7 +18237,7 @@ GameObject:
   - component: {fileID: 1797875905}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17914,7 +18314,7 @@ GameObject:
   - component: {fileID: 1798502950}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Cow2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18245,7 +18645,7 @@ GameObject:
   - component: {fileID: 1829017097}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18322,7 +18722,7 @@ GameObject:
   - component: {fileID: 1848359452}
   m_Layer: 6
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62425,7 +62825,7 @@ GameObject:
   - component: {fileID: 1918855569}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62464,7 +62864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1918855570}
 --- !u!114 &1918855570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66198,7 +66598,7 @@ GameObject:
   - component: {fileID: 1979310673}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Chicken5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66237,7 +66637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1979310674}
 --- !u!114 &1979310674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66945,9 +67345,10 @@ GameObject:
   - component: {fileID: 2073928761}
   - component: {fileID: 2073928760}
   - component: {fileID: 2073928759}
+  - component: {fileID: 2073928764}
   m_Layer: 3
   m_Name: Cow (1)
-  m_TagString: Untagged
+  m_TagString: Cow1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67127,6 +67528,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2073928764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073928757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 1586575455}
+  max_health: 150
+  current_health: 150
 --- !u!1 &2089174104
 GameObject:
   m_ObjectHideFlags: 0
@@ -67141,9 +67557,10 @@ GameObject:
   - component: {fileID: 2089174108}
   - component: {fileID: 2089174107}
   - component: {fileID: 2089174106}
+  - component: {fileID: 2089174111}
   m_Layer: 3
   m_Name: Sheep (1)
-  m_TagString: Untagged
+  m_TagString: Sheep1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67323,6 +67740,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2089174111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089174104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 315217939}
+  max_health: 100
+  current_health: 100
 --- !u!1 &2101721789
 GameObject:
   m_ObjectHideFlags: 0
@@ -67439,9 +67871,10 @@ GameObject:
   - component: {fileID: 2117032711}
   - component: {fileID: 2117032710}
   - component: {fileID: 2117032709}
+  - component: {fileID: 2117032714}
   m_Layer: 3
   m_Name: Sheep (2)
-  m_TagString: Untagged
+  m_TagString: Sheep2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67621,6 +68054,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2117032714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117032707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 692053049}
+  max_health: 100
+  current_health: 100
 --- !u!1 &2137899677
 GameObject:
   m_ObjectHideFlags: 0
@@ -67710,7 +68158,7 @@ GameObject:
   - component: {fileID: 2141350991}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67749,7 +68197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 2141350992}
 --- !u!114 &2141350992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67815,9 +68263,10 @@ GameObject:
   - component: {fileID: 2141451029}
   - component: {fileID: 2141451028}
   - component: {fileID: 2141451027}
+  - component: {fileID: 2141451032}
   m_Layer: 3
   m_Name: Sheep
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67997,6 +68446,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2141451032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141451025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 2141350991}
+  max_health: 100
+  current_health: 100
 --- !u!1 &2141795588
 GameObject:
   m_ObjectHideFlags: 0
@@ -68010,7 +68474,7 @@ GameObject:
   - component: {fileID: 2141795590}
   m_Layer: 6
   m_Name: Health Fill
-  m_TagString: Untagged
+  m_TagString: Chicken5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68086,7 +68550,7 @@ GameObject:
   - component: {fileID: 2143819283}
   m_Layer: 6
   m_Name: Health Bar
-  m_TagString: Untagged
+  m_TagString: Cow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68125,7 +68589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b30a29899cb5846a114a4d888962e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 2143819284}
 --- !u!114 &2143819284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68190,7 +68654,7 @@ GameObject:
   - component: {fileID: 2145554214}
   m_Layer: 6
   m_Name: Health Border
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68371,9 +68835,10 @@ GameObject:
   - component: {fileID: 2146307980}
   - component: {fileID: 2146307979}
   - component: {fileID: 2146307978}
+  - component: {fileID: 2146307983}
   m_Layer: 3
   m_Name: Cow (2)
-  m_TagString: Untagged
+  m_TagString: Cow2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68553,3 +69018,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2146307983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146307976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7d55ce840519b4a955fe4f9438452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_bar: {fileID: 137027651}
+  max_health: 150
+  current_health: 150
