@@ -5,6 +5,7 @@ using UnityEngine;
 public class EntityAttributes : MonoBehaviour
 {
     public HealthBar health_bar;
+    public Animator animator;
 
     // Health variables
     public int max_health = 100;
@@ -31,7 +32,28 @@ public class EntityAttributes : MonoBehaviour
 
         if (current_health <= 0 )
         {
-            Destroy(gameObject);
+            Death();
         }
     } 
+
+       // Delayed time for death animation to play;
+    IEnumerator DeathAnim(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Disappear();
+    }
+
+    void Death()
+    {
+        // Link death animation
+        animator.SetTrigger("Died");
+        // Start the delay time
+        StartCoroutine(DeathAnim(1));
+    }
+
+    // Remove entity from scene
+    void Disappear()
+    {
+        Destroy(gameObject);
+    }
 }
