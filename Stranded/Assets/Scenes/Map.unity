@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1753000336}
-  animator: {fileID: 0}
+  animator: {fileID: 131221015}
   max_health: 50
   current_health: 50
 --- !u!1 &137027649
@@ -2209,7 +2209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 950882616}
-  animator: {fileID: 0}
+  animator: {fileID: 193857429}
   max_health: 50
   current_health: 50
 --- !u!1 &199612243
@@ -4238,7 +4238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 390333566}
-  animator: {fileID: 0}
+  animator: {fileID: 345789443}
   max_health: 100
   current_health: 100
 --- !u!1 &367071089
@@ -6308,7 +6308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 2143819283}
-  animator: {fileID: 0}
+  animator: {fileID: 583346416}
   max_health: 150
   current_health: 150
 --- !u!1 &584006909
@@ -6521,7 +6521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1598500183}
-  animator: {fileID: 0}
+  animator: {fileID: 584006911}
   max_health: 50
   current_health: 50
 --- !u!224 &587507762 stripped
@@ -7282,7 +7282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 45082485}
-  animator: {fileID: 0}
+  animator: {fileID: 669217075}
   max_health: 50
   current_health: 50
 --- !u!1 &676102293
@@ -7665,7 +7665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1979310673}
-  animator: {fileID: 0}
+  animator: {fileID: 687782379}
   max_health: 50
   current_health: 50
 --- !u!1 &691399296
@@ -8676,7 +8676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1034971116}
-  animator: {fileID: 0}
+  animator: {fileID: 835306998}
   max_health: 50
   current_health: 50
 --- !u!1 &858593600
@@ -17846,7 +17846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1918855569}
-  animator: {fileID: 0}
+  animator: {fileID: 1758834346}
   max_health: 50
   current_health: 50
 --- !u!1 &1779494299
@@ -18239,7 +18239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1517413855}
-  animator: {fileID: 0}
+  animator: {fileID: 1793818686}
   max_health: 100
   current_health: 100
 --- !u!1 &1797875903
@@ -67559,7 +67559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1586575455}
-  animator: {fileID: 0}
+  animator: {fileID: 2073928760}
   max_health: 150
   current_health: 150
 --- !u!1 &2089174104
@@ -67772,7 +67772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 315217939}
-  animator: {fileID: 0}
+  animator: {fileID: 2089174108}
   max_health: 100
   current_health: 100
 --- !u!1 &2101721789
@@ -68087,7 +68087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 692053049}
-  animator: {fileID: 0}
+  animator: {fileID: 2117032711}
   max_health: 100
   current_health: 100
 --- !u!1 &2137899677
@@ -68480,7 +68480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 2141350991}
-  animator: {fileID: 0}
+  animator: {fileID: 2141451029}
   max_health: 100
   current_health: 100
 --- !u!1 &2141795588
@@ -69053,6 +69053,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 137027651}
-  animator: {fileID: 0}
+  animator: {fileID: 2146307979}
   max_health: 150
   current_health: 150
