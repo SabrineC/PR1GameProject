@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sheep : MonoBehaviour
+public class DamageSheep : MonoBehaviour
 {
     public Animator animator;
     public int damage;
@@ -19,7 +19,7 @@ public class Sheep : MonoBehaviour
             isAttacking = true;
         }
 
-        // If enemies are in range and attack input is pressed deals damage
+        // If animal is in range and attack input is pressed deals damage
         if(inCollider && isAttacking)
         {
             entity_attributes.Damaged(damage);

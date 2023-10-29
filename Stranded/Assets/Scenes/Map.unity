@@ -5479,6 +5479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health_bar: {fileID: 1031761682}
+  animator: {fileID: 542785126}
   max_health: 100
   current_health: 100
 --- !u!95 &542785126

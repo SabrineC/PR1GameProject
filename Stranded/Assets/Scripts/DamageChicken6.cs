@@ -19,7 +19,7 @@ public class DamageChicken6 : MonoBehaviour
             isAttacking = true;
         }
 
-        // If enemies are in range and attack input is pressed deals damage
+        // If animal is in range and attack input is pressed deals damage
         if(inCollider && isAttacking)
         {
             entity_attributes.Damaged(damage);

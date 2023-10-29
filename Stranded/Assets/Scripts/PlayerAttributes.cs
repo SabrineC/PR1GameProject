@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class PlayerAttributes : MonoBehaviour
 {
     public HealthBar health_bar;
+
+    public Animator animator;
 
     // Health variables
     public int max_health = 100;
@@ -35,7 +38,23 @@ public class PlayerAttributes : MonoBehaviour
         }
     } 
 
+    // Delayed time for death animation to play;
+    IEnumerator DeathAnim(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Disappear();
+    }
+
     void Death()
+    {
+        // Link death animation
+        animator.SetTrigger("Died");
+        // Start the delay time
+        StartCoroutine(DeathAnim(1));
+    }
+
+    // Remove player from scene and apply the death screen
+    void Disappear()
     {
         Destroy(gameObject);
         SceneManager.LoadScene(3);
