@@ -10,6 +10,8 @@ public class HurtPlayer : MonoBehaviour
     private bool canDamage = true; // Checks if enemy can damage
     private bool playerInsideCollider = false; // Checks if player is inside collider
 
+    public AudioSource ouch;
+
     // Checks if player is inside collider
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -36,7 +38,7 @@ public class HurtPlayer : MonoBehaviour
         }
     }
 
-    // Enemy deals damaage after delay
+    // Enemy deals damage after delay
     private IEnumerator DealDamageWithDelay()
     {
         if (canDamage)
@@ -44,6 +46,7 @@ public class HurtPlayer : MonoBehaviour
             canDamage = false;
             yield return new WaitForSeconds(cooldownTime);
             playerHealth.Damaged(damage);
+            ouch.enabled = true;
             canDamage = true;
         }
     }
