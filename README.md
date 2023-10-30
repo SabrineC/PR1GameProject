@@ -5,7 +5,9 @@ The character's airplane crashed into the ocean after a storm made the aircraft'
 
 Controls:
 Movement: WASD
+
 Attack: F
+
 Pick up/Use item: Left Mouse Click
 
 Team Members:
