@@ -7,7 +7,7 @@ public class AnimalMovement : MonoBehaviour
     public float speed = 1; // Animal movement speed
     public Animator animator; 
 
-    private Rigidbody2D rb2d;
+    private Rigidbody2D rb2D;
     private Vector2[] directions = { Vector2.up, Vector2.down, Vector2.left, Vector2.right }; // This is an array of possible movement directions (N,S,W,E)
     private Vector2 currentDirection; // Current direction the animal is walking in
     private float changeDirectionTime = 2f; // This is the duration for changing direction
@@ -19,7 +19,7 @@ public class AnimalMovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>(); 
+        rb2D = GetComponent<Rigidbody2D>(); 
         animator = GetComponent<Animator>(); 
         ChooseNewDirection(); 
         randomOffset = Random.Range(0f, 5f); // Creates random offset so that all entities do not move at same time
@@ -39,7 +39,7 @@ public class AnimalMovement : MonoBehaviour
             {
                 isWalking = false;
                 walkingTime = 0;
-                rb2d.velocity = Vector2.zero;
+                rb2D.velocity = Vector2.zero;
                 UpdateAnimation(Vector2.zero);
             }
         }
@@ -61,7 +61,7 @@ public class AnimalMovement : MonoBehaviour
     // Moves the entity in a different direction
     void MoveEntity(Vector2 direction)
     {
-        rb2d.velocity = direction * speed;
+        rb2D.velocity = direction * speed;
     }
 
     // Updates the animation based on the direction
