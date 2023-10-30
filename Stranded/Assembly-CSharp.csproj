@@ -73,6 +73,7 @@
     <Compile Include="Assets\scripts\skip button.cs" />
     <Compile Include="Assets\scripts\DamageTribeman.cs" />
     <Compile Include="Assets\scripts\DamageChicken5.cs" />
+    <Compile Include="Assets\scripts\attack.cs" />
     <Compile Include="Assets\scripts\DamageChicken3.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\scripts\words.cs" />
