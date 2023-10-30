@@ -1,12 +1,23 @@
-# PR1GameProject
+# Stranded
 
-We will be using Unity2D framework and coding in C#.
-We will also be using Trello for planning and allocating tasks to the team members.
-We will be using Discord for meetings and general communication.
+Story:
+The character's airplane crashed into the ocean after a storm made the aircraft's engine fail, resulting in them losing control. They wake up on an island and have to find a way to survive and get back home.
 
-Team Members:
-Asadullah Anfishi,
-Patrice Williams,
-Sabrine Charkaui,
+## Controls
+
+Movement: WASD
+
+Attack: F
+
+Pick up/Use item: Left Mouse Click
+
+## Development Team
+
+Asadullah Anfishi
+
+Patrice Williams
+
+Sabrine Charkaui
+
 Sirine Charkaui
 
