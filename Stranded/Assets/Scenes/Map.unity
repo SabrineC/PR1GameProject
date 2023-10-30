@@ -5914,8 +5914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b85e770b146a3488e07d110b2b27d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_speed: 2
-  rb: {fileID: 1054952699}
+  movementSpeed: 2
+  rb2D: {fileID: 1054952699}
   animator: {fileID: 542785126}
 --- !u!212 &542785128
 SpriteRenderer:
@@ -6186,7 +6186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08a76012593c4b40bcbca041afa7557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackSound: {fileID: 542785131}
+  attack: {fileID: 542785131}
 --- !u!1 &556314313
 GameObject:
   m_ObjectHideFlags: 0
@@ -15534,7 +15534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1487036647}
+  entityAttributes: {fileID: 1487036647}
 --- !u!114 &1466628498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15549,7 +15549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 162304356}
+  entityAttributes: {fileID: 162304356}
 --- !u!114 &1466628499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15564,7 +15564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1504220854}
+  entityAttributes: {fileID: 1504220854}
 --- !u!114 &1466628500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15579,7 +15579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1080111147}
+  entityAttributes: {fileID: 1080111147}
 --- !u!114 &1466628501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15594,7 +15594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 969641959}
+  entityAttributes: {fileID: 969641959}
 --- !u!114 &1466628502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15609,7 +15609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1688101148}
+  entityAttributes: {fileID: 1688101148}
 --- !u!114 &1466628503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15624,7 +15624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 66509283}
+  entityAttributes: {fileID: 66509283}
 --- !u!114 &1466628504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15639,7 +15639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1793818689}
+  entityAttributes: {fileID: 1793818689}
 --- !u!114 &1466628505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15654,7 +15654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 345789446}
+  entityAttributes: {fileID: 345789446}
 --- !u!114 &1466628506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15669,7 +15669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 2117032714}
+  entityAttributes: {fileID: 2117032714}
 --- !u!114 &1466628507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15684,7 +15684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 2089174111}
+  entityAttributes: {fileID: 2089174111}
 --- !u!114 &1466628508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15699,7 +15699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 2141451032}
+  entityAttributes: {fileID: 2141451032}
 --- !u!114 &1466628509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15714,7 +15714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 2146307983}
+  entityAttributes: {fileID: 2146307983}
 --- !u!114 &1466628510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15729,7 +15729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 2073928764}
+  entityAttributes: {fileID: 2073928764}
 --- !u!114 &1466628511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15744,7 +15744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 583346418}
+  entityAttributes: {fileID: 583346418}
 --- !u!114 &1466628512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15759,7 +15759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 193857434}
+  entityAttributes: {fileID: 193857434}
 --- !u!114 &1466628513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15774,7 +15774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 687782384}
+  entityAttributes: {fileID: 687782384}
 --- !u!114 &1466628514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15789,7 +15789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 669217080}
+  entityAttributes: {fileID: 669217080}
 --- !u!114 &1466628515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15804,7 +15804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 835307003}
+  entityAttributes: {fileID: 835307003}
 --- !u!114 &1466628516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15819,7 +15819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 584006916}
+  entityAttributes: {fileID: 584006916}
 --- !u!114 &1466628517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15834,7 +15834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 131221020}
+  entityAttributes: {fileID: 131221020}
 --- !u!114 &1466628518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15849,7 +15849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 542785126}
   damage: 10
-  entity_attributes: {fileID: 1758834352}
+  entityAttributes: {fileID: 1758834352}
 --- !u!1001 &1467034466
 PrefabInstance:
   m_ObjectHideFlags: 0

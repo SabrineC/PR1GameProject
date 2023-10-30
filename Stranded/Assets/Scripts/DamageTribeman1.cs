@@ -6,11 +6,12 @@ public class DamageTribeman1 : MonoBehaviour
 {
     public Animator animator;
     public int damage;
-    public EntityAttributes entity_attributes;
+    public EntityAttributes entityAttributes;
 
     private bool isAttacking = false;
     private bool inCollider = false;
 
+    // Player input causes character to attack
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
@@ -19,10 +20,10 @@ public class DamageTribeman1 : MonoBehaviour
             isAttacking = true;
         }
 
-        // If enemies are in range and attack input is pressed deals damage
+        // If enemy is in range and attack input is pressed deals damage
         if(inCollider && isAttacking)
         {
-            entity_attributes.Damaged(damage);
+            entityAttributes.Damaged(damage);
             isAttacking = false;
         }
     }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movement_speed = 2f;
+    public float movementSpeed = 2f;
 
-    public Rigidbody2D rb;
+    public Rigidbody2D rb2D;
 
     public Animator animator;
 
@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Getting Input from wasd or arrow keys
+        // Getting input from wasd or arrow keys
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -28,6 +28,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Making inputs into movement
-        rb.MovePosition(rb.position + movement * movement_speed * Time.fixedDeltaTime);
+        rb2D.MovePosition(rb2D.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
 }
