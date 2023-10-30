@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class attack : MonoBehaviour
+public class Attack : MonoBehaviour
 {
-  public AudioSource attackSound;
+  public AudioSource attack;
 
     void Update()
     {
+        // When the player attacks the sound plays
         if(Input.GetKey(KeyCode.F))
         {
-            attackSound.enabled = true;
+            attack.enabled = true;
         }
         else
         {
-            attackSound.enabled = false;
+            attack.enabled = false;
         }
     }
 }

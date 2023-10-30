@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class footsteps : MonoBehaviour
+public class Footsteps : MonoBehaviour
 {
-  public AudioSource footstepsSound;
+  public AudioSource footsteps;
 
     void Update()
     {
+        // When the player moves the sound will be played
         if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            footstepsSound.enabled = true;
+            footsteps.enabled = true;
         }
         else
         {
-            footstepsSound.enabled = false;
+            footsteps.enabled = false;
         }
     }
 }

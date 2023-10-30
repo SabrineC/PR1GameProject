@@ -46,6 +46,7 @@ public class HurtPlayer : MonoBehaviour
             canDamage = false;
             yield return new WaitForSeconds(cooldownTime);
             playerHealth.Damaged(damage);
+            // Player makes a sound when hit
             ouch.enabled = true;
             canDamage = true;
         }
