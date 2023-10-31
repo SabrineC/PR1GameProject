@@ -15,5 +15,5 @@ MonoBehaviour:
   id: 2
   itemName: Lamb
   value: 15
-  icon: {fileID: 1762544232, guid: 4a3c0b8a1bc20494daa02dd59e423b36, type: 3}
+  icon: {fileID: 21300000, guid: 2dce21529f5c24f4fa43adb62abceea7, type: 3}
   itemType: 2

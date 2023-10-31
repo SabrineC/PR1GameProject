@@ -19,7 +19,7 @@ public class Item : ScriptableObject
         Chicken,
         Lamb,
         Steak,
-        Food, 
+       
 
     }
 
