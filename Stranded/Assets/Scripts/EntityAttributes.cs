@@ -10,6 +10,7 @@ public class EntityAttributes : MonoBehaviour
     // Health variables
     public int max_health = 100;
     public int current_health;
+    public ItemDrop getItem;
 
     // Health is at max at start of the game
     void Start()
@@ -32,6 +33,10 @@ public class EntityAttributes : MonoBehaviour
 
         if (current_health <= 0 )
         {
+            if (getItem != null)
+            {
+                getItem.DropItem();
+            }
             Death();
         }
     } 

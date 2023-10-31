@@ -20,8 +20,10 @@ public class PlayerAttributes : MonoBehaviour
         health_bar.SetMaxHealth(max_health);
     }
 
-    void Update()
+    public void IncreaseHealth(int value)
     {
+        current_health += value;
+        health_bar.SetHealth(current_health);
 
     }
 
