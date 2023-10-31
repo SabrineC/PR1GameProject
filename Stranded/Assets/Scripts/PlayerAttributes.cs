@@ -6,24 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class PlayerAttributes : MonoBehaviour
 {
-    public HealthBar health_bar;
+    public HealthBar healthBar;
 
     public Animator animator;
 
     // Health variables
-    public int max_health = 100;
-    public int current_health;
+    public int maxHealth = 100;
+    public int currentHealth;
 
+    // Health is at max at start of the game
     void Start()
     {
-        current_health = max_health;
-        health_bar.SetMaxHealth(max_health);
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     public void IncreaseHealth(int value)
     {
-        current_health += value;
-        health_bar.SetHealth(current_health);
+        currentHealth += value;
+        healthBar.SetHealth(currentHealth);
 
     }
 
@@ -31,17 +32,17 @@ public class PlayerAttributes : MonoBehaviour
     
     public void Damaged(int damage)
     {
-        current_health -= damage;
-        health_bar.SetHealth(current_health);
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
 
-        if (current_health <= 0 )
+        if (currentHealth <= 0 )
         {
             Death();
         }
     } 
 
     // Delayed time for death animation to play;
-    IEnumerator DeathAnim(float time)
+    IEnumerator DeathAnimation(float time)
     {
         yield return new WaitForSeconds(time);
         Disappear();
@@ -52,7 +53,7 @@ public class PlayerAttributes : MonoBehaviour
         // Link death animation
         animator.SetTrigger("Died");
         // Start the delay time
-        StartCoroutine(DeathAnim(1));
+        StartCoroutine(DeathAnimation(1));
     }
 
     // Remove player from scene and apply the death screen

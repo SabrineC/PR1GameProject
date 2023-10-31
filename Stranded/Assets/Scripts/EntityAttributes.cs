@@ -4,34 +4,29 @@ using UnityEngine;
 
 public class EntityAttributes : MonoBehaviour
 {
-    public HealthBar health_bar;
+    public HealthBar healthBar;
     public Animator animator;
 
     // Health variables
-    public int max_health = 100;
-    public int current_health;
+    public int maxHealth = 100;
+    public int currentHealth;
     public ItemDrop getItem;
 
     // Health is at max at start of the game
     void Start()
     {
-        current_health = max_health;
-        health_bar.SetMaxHealth(max_health);
-    }
-
-    void Update()
-    {
-
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Removing player health from health bar when damaged
     
     public void Damaged(int damage)
     {
-        current_health -= damage;
-        health_bar.SetHealth(current_health);
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
 
-        if (current_health <= 0 )
+        if (currentHealth <= 0 )
         {
             if (getItem != null)
             {
@@ -42,7 +37,7 @@ public class EntityAttributes : MonoBehaviour
     } 
 
        // Delayed time for death animation to play;
-    IEnumerator DeathAnim(float time)
+    IEnumerator DeathAnimation(float time)
     {
         yield return new WaitForSeconds(time);
         Disappear();
@@ -53,7 +48,7 @@ public class EntityAttributes : MonoBehaviour
         // Link death animation
         animator.SetTrigger("Died");
         // Start the delay time
-        StartCoroutine(DeathAnim(1));
+        StartCoroutine(DeathAnimation(1));
     }
 
     // Remove entity from scene
