@@ -1,0 +1,34 @@
+Authors: Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike), William.Thompsonj, Mandi Paugh, David Conway Jr. (JaidynReiman), Marcel van de Steeg (MadMarcel), Nila122
+
+- body/bodies/female/universal/olive.png: by Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+    - https://opengameart.org/content/lpc-ladies
+    - https://opengameart.org/content/lpc-7-womens-shirts
+    - https://opengameart.org/content/lpc-jump-expanded
+
+- head/heads/human_male/universal/olive.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+    - https://opengameart.org/content/lpc-character-bases
+
+- hair/sara/female/dark_brown.png: by Stephen Challener (Redshrike), William.Thompsonj, Mandi Paugh, bluecarrot16. License(s): OGA-BY 3.0, CC-BY 3.0. 
+    - https://opengameart.org/content/lpc-sara
+    - https://opengameart.org/content/lpc-hair
+
+- torso/clothes/sleeveless/female/leather.png: by ElizaWy, David Conway Jr. (JaidynReiman), Matthew Krohn (makrohn), Marcel van de Steeg (MadMarcel). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-female-orcogregoblintroll-base-walkcycle
+    - https://opengameart.org/content/lpc-curly-hair-elven-ears-white-cape-with-blue-trim-and-more
+    - https://opengameart.org/content/lpc-7-womens-shirts
+    - http://opengameart.org/content/lpc-clothing-updates
+
+- legs/skirts/legion/female/green.png: by bluecarrot16, Nila122. License(s): CC-BY-SA 3.0, GPL 2.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-roman-armor
+    - http://opengameart.org/content/lpc-clothing-updates
+
+- weapon/sword/dagger/dagger.png: by bluecarrot16, Johannes Sjölund (wulax), Matthew Krohn (makrohn). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+    - https://opengameart.org/content/lpc-extended-weapon-animations
+
+- weapon/sword/dagger/behind/dagger.png: by bluecarrot16, Johannes Sjölund (wulax), Matthew Krohn (makrohn). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+    - https://opengameart.org/content/lpc-extended-weapon-animations
