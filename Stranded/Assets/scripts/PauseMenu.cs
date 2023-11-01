@@ -4,47 +4,43 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
-    public static bool PausedGame = false;
-
-    public GameObject gameispausedMenu;
-
+    public static bool pausedGame = false;
+    public GameObject isPaused; 
 
 
-    void Update ()
+
+    void Update ()  //This code checks if the user has pressed the 'Esc' Key on the keyboard, if the user has then the function 'pasuedGame' is played and if not then the game will resume.
     {
         if (Input.GetKeyDown(KeyCode.Escape))
        {
-        if (PausedGame)
-        {
-            Resume(); 
-        }
-        else
-        { 
-            Pause();                            
-        }
+            if (pausedGame)
+            {
+                Resume(); 
+            }
+            else
+            { 
+                Pause();                            
+            }   
        } 
          
     }
-     public void Resume()
+     public void Resume()  //This function checks to see if the game is paused and if it is not it will resume the game by unfreezing the time.
     {
-        gameispausedMenu.SetActive(false);
-        Time.timeScale= 1f;
-        PausedGame = false;
+        isPaused.SetActive(false);
+        Time.timeScale = 1f;
+        pausedGame = false;
 
     }
-    public void Pause()
+    public void Pause()  //This function freezes the time scale and this then stops all moving entities.
     {
-        gameispausedMenu.SetActive(true);
-        Time.timeScale= 0f;
-        PausedGame = true;
+        isPaused.SetActive(true);
+        Time.timeScale = 0f;
+        pausedGame = true;
     }
 
-    public void loadmenu()
+    public void LoadMenu()   //This function loads the correct scene.
     {
-        SceneManager.LoadScene ("Main Menu");
-
+        SceneManager.LoadScene("Main Menu");
     }
     
-    
-
 }
