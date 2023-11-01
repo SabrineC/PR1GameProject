@@ -8,22 +8,14 @@ public class InventoryItemController : MonoBehaviour
 {
     public Item item;
 
-   /* public Button RemoveButton;
-    public void RemoveItem()
-    {
-        InventoryManager.Instance.Remove(item);
-        Destroy(gameObject);
-    }public PlayerAttributes current_health;*/
-    
-
-    public void AddItem(Item newItem)
+    public void AddItem(Item newItem) //When the item is moved it is pushed into a new 'add item' which is them displayed in the inventory.
     {
         item = newItem;
     }
 
 
 
-    public void UseItem()
+    public void UseItem() //This is the inventory code that allows the user to use the items.
     {
         switch (item.itemType)
         {

@@ -15,7 +15,7 @@ public class HurtPlayer : MonoBehaviour
     // Checks if player is inside collider
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("player"))
         {
             playerInsideCollider = true;
         }
@@ -24,7 +24,7 @@ public class HurtPlayer : MonoBehaviour
     // Checks if player is outside collider
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("player"))
         {
             playerInsideCollider = false;
         }
