@@ -247,7 +247,8 @@ Transform:
   m_LocalPosition: {x: -506.65112, y: -323.77402, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 272889159}
   m_Father: {fileID: 1006418425}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -424,7 +425,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a69580747f85a4c6f967d1eb2a0316cd, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -517,11 +518,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272889157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -391.09448, y: -342.08405, z: -0.51466334}
+  m_LocalPosition: {x: 115.55664, y: -18.310028, z: -0.51466334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1006418425}
+  m_Father: {fileID: 26401877}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &334564926
@@ -622,7 +623,7 @@ MonoBehaviour:
   - 'As you open your eyes, you see that you have found yourself stuck on an island. '
   - 'With limited food and a weapon from the remains of your aircraft, thoughts start
     to appear. '
-  - 'ou find yourself asking what dangers are out there and how will you get back? '
+  - 'You find yourself asking what dangers are out there and how will you get back? '
   - 'You are now forced to find a way to survive. '
   - ' Good Luck!'
   TextSpeed: 0.1
@@ -959,7 +960,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 88725177}
-  - {fileID: 272889159}
   - {fileID: 112992551}
   - {fileID: 265258727}
   - {fileID: 2061787402}
