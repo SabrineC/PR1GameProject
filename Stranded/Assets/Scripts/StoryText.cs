@@ -2,60 +2,60 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class words : MonoBehaviour
+public class StoryText : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textspeed;
-    private int index;
+    //variables for the code
+    public TextMeshProUGUI TextComponent;
+    public string[] Lines;
+    public float TextSpeed;
+    private int Index;
 
 
-     void Start()
+     void Start() //This code makes an empty area so that I can add the story script to it.
      {
-        textComponent.text = string.Empty;
+        TextComponent.text = string.Empty;
         startScript();
      }
 
-    private void Update()
+    private void Update()  //This Block checks when the user clicks on the scene and will move on to the next sentence.
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (textComponent.text == lines[index])
+            if (TextComponent.text == Lines[Index])
             {
                 NextLine();
             }
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];
+                TextComponent.text = Lines[Index];
 
             }
 
         }
 
     }
-    void startScript()
+    void startScript() //This code starts the scence.
     {
-        index = 0;
-        StartCoroutine(Typeline());
+        Index = 0;
+        StartCoroutine(TypeLine());
     }
-    IEnumerator Typeline()
+    IEnumerator TypeLine() //This code displays the sentences letter by letter.
     {
-        foreach (char c in lines[index].ToCharArray())
+        foreach (char c in Lines[Index].ToCharArray())
         {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textspeed);
+            TextComponent.text += c;
+            yield return new WaitForSeconds(TextSpeed);
         }
     }
 
-
-    void NextLine()
+    void NextLine() //This block moves over to the next line of code so that it is continuous 
     {
-        if (index < lines.Length - 1)
+        if (Index < Lines.Length - 1)
         {
-            index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(Typeline());
+            Index++;
+            TextComponent.text = string.Empty;
+            StartCoroutine(TypeLine());
         }
         else
         {
@@ -64,9 +64,5 @@ public class words : MonoBehaviour
         }
 
     } 
-
-
-    
-
 }
         
