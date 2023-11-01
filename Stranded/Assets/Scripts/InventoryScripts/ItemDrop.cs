@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemDrop : MonoBehaviour
-{
+{ //Variables for the animals
     public GameObject item;
-    private Transform animalPosition; 
+    private Transform AnimalPosition;  
    
  
-    private void Start()
+    private void Start() //Starts off with having the item attached to the animal.
     {
-        animalPosition = GetComponent<Transform>();
+        AnimalPosition = GetComponent<Transform>();
     }
  
-    public void DropItem()
+    public void DropItem() //when the animal dies it drops the item it grabbed.
     {
-        Instantiate(item, animalPosition.position, Quaternion.identity);
+        Instantiate(item, AnimalPosition.position, Quaternion.identity);
  
     }
  
