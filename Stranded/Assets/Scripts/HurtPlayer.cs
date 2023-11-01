@@ -7,12 +7,12 @@ public class HurtPlayer : MonoBehaviour
     public int damage;
     private float cooldownTime = 1f; // Cooldown time before attack
     public PlayerAttributes playerHealth; // Getting player health
-    private bool canDamage = true; // Checks if enemy can damage
-    private bool playerInsideCollider = false; // Checks if player is inside collider
+    private bool canDamage = true; // Checks if the enemy can damage
+    private bool playerInsideCollider = false; // Checks if the player is inside the collider
 
     public AudioSource ouch;
 
-    // Checks if player is inside collider
+    // Checks if the player is inside the collider
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -21,7 +21,7 @@ public class HurtPlayer : MonoBehaviour
         }
     }
 
-    // Checks if player is outside collider
+    // Checks if the player is outside the collider
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -38,7 +38,7 @@ public class HurtPlayer : MonoBehaviour
         }
     }
 
-    // Enemy deals damage after delay
+    // Enemy deals damage after a delay
     private IEnumerator DealDamageWithDelay()
     {
         if (canDamage)
