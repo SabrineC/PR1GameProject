@@ -2,60 +2,60 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class StoryText : MonoBehaviour
+public class words : MonoBehaviour
 {
-    //variables for the code
-    public TextMeshProUGUI TextComponent;
-    public string[] Lines;
-    public float TextSpeed;
-    private int Index;
+    public TextMeshProUGUI textComponent;
+    public string[] lines;
+    public float textspeed;
+    private int index;
 
 
-     void Start() //This code makes an empty area so that I can add the story script to it.
+     void Start()
      {
-        TextComponent.text = string.Empty;
+        textComponent.text = string.Empty;
         startScript();
      }
 
-    private void Update()  //This Block checks when the user clicks on the scene and will move on to the next sentence.
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (TextComponent.text == Lines[Index])
+            if (textComponent.text == lines[index])
             {
                 NextLine();
             }
             else
             {
                 StopAllCoroutines();
-                TextComponent.text = Lines[Index];
+                textComponent.text = lines[index];
 
             }
 
         }
 
     }
-    void startScript() //This code starts the scence.
+    void startScript()
     {
-        Index = 0;
-        StartCoroutine(TypeLine());
+        index = 0;
+        StartCoroutine(Typeline());
     }
-    IEnumerator TypeLine() //This code displays the sentences letter by letter.
+    IEnumerator Typeline()
     {
-        foreach (char c in Lines[Index].ToCharArray())
+        foreach (char c in lines[index].ToCharArray())
         {
-            TextComponent.text += c;
-            yield return new WaitForSeconds(TextSpeed);
+            textComponent.text += c;
+            yield return new WaitForSeconds(textspeed);
         }
     }
 
-    void NextLine() //This block moves over to the next line of code so that it is continuous 
+
+    void NextLine()
     {
-        if (Index < Lines.Length - 1)
+        if (index < lines.Length - 1)
         {
-            Index++;
-            TextComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
+            index++;
+            textComponent.text = string.Empty;
+            StartCoroutine(Typeline());
         }
         else
         {
@@ -64,5 +64,9 @@ public class StoryText : MonoBehaviour
         }
 
     } 
+
+
+    
+
 }
         

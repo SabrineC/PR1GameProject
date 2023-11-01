@@ -22881,7 +22881,7 @@ MonoBehaviour:
   animator: {fileID: 1758834346}
   maxHealth: 50
   currentHealth: 50
-  getItem: {fileID: 1758834353}
+  getItem: {fileID: 0}
 --- !u!114 &1758834353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24483,7 +24483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e75e17b70a52f47dd80f29bb9e27f459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPaused: {fileID: 0}
+  gameispausedMenu: {fileID: 1078579654}
 --- !u!114 &1866819984
 MonoBehaviour:
   m_ObjectHideFlags: 0

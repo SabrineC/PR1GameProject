@@ -10,10 +10,10 @@ public class EntityAttributes : MonoBehaviour
     // Health variables
     public int maxHealth = 100;
     public int currentHealth;
-    public ItemDrop getItem;  //This variable is for the food that the animales drop once killed.
+    public ItemDrop getItem;
 
     // Health is at max at start of the game
-    void Start() 
+    void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -28,10 +28,10 @@ public class EntityAttributes : MonoBehaviour
 
         if (currentHealth <= 0 )
         {
-            if (getItem != null) //This code checks if it is not empty then it will get the item(food) and then drop it. Once droped the animale will die.
+            if (getItem != null)
             {
                 getItem.DropItem();
-            } 
+            }
             Death();
         }
     } 
