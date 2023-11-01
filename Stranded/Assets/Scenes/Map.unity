@@ -22287,7 +22287,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1866819983}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: loadmenu
+        m_MethodName: LoadMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24483,7 +24483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e75e17b70a52f47dd80f29bb9e27f459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameispausedMenu: {fileID: 1078579654}
+  isPaused: {fileID: 1078579654}
 --- !u!114 &1866819984
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cdd2d48808f9423a8baccec33cd125a, type: 3}
   m_Name: Coconut
   m_EditorClassIdentifier: 
-  id: 2
+  Id: 2
   itemName: Coconut
   value: 5
   icon: {fileID: 21300000, guid: 5cb3ccd36393f43e8adada6ed3d64a50, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cdd2d48808f9423a8baccec33cd125a, type: 3}
   m_Name: Lamb
   m_EditorClassIdentifier: 
-  id: 2
+  Id: 2
   itemName: Lamb
   value: 15
   icon: {fileID: 21300000, guid: 2dce21529f5c24f4fa43adb62abceea7, type: 3}
