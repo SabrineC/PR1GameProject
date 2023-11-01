@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
     public float speed; // Enemy movement speed
     public float maxRange; // Maximum range that the enemy can follow the player
     private bool isGoingHome = false; // Check to determine whether the enemy should go back to home position
-    public float stoppingThreshold = 0.1f; // Thresehold that the enemy stops moving (for the home position)
+    public float stoppingThreshold = 0.1f; // Threshold that the enemy stops moving (for the home position)
     private float attackRange = 0.65f; // Range that the enemy stops to attack
 
     // Start is called before the first frame update
@@ -95,6 +95,7 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
+    
     // Goes back to the home position
     public void GoHome()
     {
