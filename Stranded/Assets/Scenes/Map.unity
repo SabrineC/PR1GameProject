@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 15
   playerHealth: {fileID: 965144435}
   ouch: {fileID: 1389008771}
 --- !u!61 &66509282
@@ -2309,7 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e281cfa170c9c4b80c47573686175d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 20
   playerHealth: {fileID: 965144435}
   ouch: {fileID: 1389008771}
 --- !u!61 &162304355
@@ -2371,8 +2371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 997315556}
   animator: {fileID: 162304352}
-  maxHealth: 300
-  currentHealth: 300
+  maxHealth: 200
+  currentHealth: 200
   getItem: {fileID: 0}
 --- !u!1 &185242698 stripped
 GameObject:
@@ -7302,8 +7302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 2143819283}
   animator: {fileID: 583346416}
-  maxHealth: 120
-  currentHealth: 120
+  maxHealth: 100
+  currentHealth: 100
   getItem: {fileID: 583346419}
 --- !u!114 &583346419
 MonoBehaviour:
@@ -73824,8 +73824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1586575455}
   animator: {fileID: 2073928760}
-  maxHealth: 120
-  currentHealth: 120
+  maxHealth: 100
+  currentHealth: 100
   getItem: {fileID: 2073928765}
 --- !u!114 &2073928765
 MonoBehaviour:
@@ -76297,8 +76297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 137027651}
   animator: {fileID: 2146307979}
-  maxHealth: 120
-  currentHealth: 120
+  maxHealth: 100
+  currentHealth: 100
   getItem: {fileID: 2146307984}
 --- !u!114 &2146307984
 MonoBehaviour:
