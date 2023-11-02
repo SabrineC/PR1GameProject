@@ -4,20 +4,20 @@ using UnityEngine;
 using TMPro;
 public class StoryText : MonoBehaviour
 {
-    //variables for the code
+    // Variables for the code
     public TextMeshProUGUI TextComponent;
     public string[] Lines;
     public float TextSpeed;
     private int Index;
 
 
-     void Start() //This code makes an empty area so that I can add the story script to it.
+     void Start() // This code makes an empty area so that I can add the story script to it.
      {
         TextComponent.text = string.Empty;
         startScript();
      }
 
-    private void Update()  //This Block checks when the user clicks on the scene and will move on to the next sentence.
+    private void Update()  // This Block checks when the user clicks on the scene and will move on to the next sentence.
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -35,12 +35,12 @@ public class StoryText : MonoBehaviour
         }
 
     }
-    void startScript() //This code starts the scence.
+    void startScript() // This code starts the scence.
     {
         Index = 0;
         StartCoroutine(TypeLine());
     }
-    IEnumerator TypeLine() //This code displays the sentences letter by letter.
+    IEnumerator TypeLine() // This code displays the sentences letter by letter.
     {
         foreach (char c in Lines[Index].ToCharArray())
         {
@@ -49,7 +49,7 @@ public class StoryText : MonoBehaviour
         }
     }
 
-    void NextLine() //This block moves over to the next line of code so that it is continuous 
+    void NextLine() // This block moves over to the next line of code so that it is continuous 
     {
         if (Index < Lines.Length - 1)
         {

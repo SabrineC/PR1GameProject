@@ -7,7 +7,7 @@ using TMPro;
 public class InventoryManager : MonoBehaviour
 
 
-{ //variables for the items so I can drag the InventorItemController to the Player.
+{ // Variables for the items so I can drag the InventorItemController to the Player.
     public static InventoryManager Instance;
     public List<Item> Items = new List<Item>();
 
@@ -22,19 +22,19 @@ public class InventoryManager : MonoBehaviour
 
     }
 
-    public void Add(Item item) //This code adds tge item.
+    public void Add(Item item) // This code adds tge item.
     {
         Items.Add(item);
     }
 
-    public void ListItems() //This code destroy the image of the item once used.
+    public void ListItems() // This code destroy the image of the item once used.
     {
         foreach (Transform item in ItemContent)
         {
             Destroy(item.gameObject);
         }
 
-        foreach (var item in Items) //This code grabes the images and names of each item and puts it in the correct place.
+        foreach (var item in Items) // This code grabes the images and names of each item and puts it in the correct place.
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
             var itemName = obj.transform.Find("ItemName").GetComponent<TextMeshProUGUI>();
@@ -47,7 +47,7 @@ public class InventoryManager : MonoBehaviour
     }   
 
 
-    public void SetInventoryItems() //This code gets the items and adds them to the Inventory.
+    public void SetInventoryItems() // This code gets the items and adds them to the Inventory.
     {
         InventoryItems = ItemContent.GetComponentsInChildren<InventoryItemController>(); 
 

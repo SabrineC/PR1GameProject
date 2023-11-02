@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 
-public class player : MonoBehaviour //if player is changed to Player the game will game.
+public class player : MonoBehaviour // If player is changed to Player the game will game.
 {
     public static player Instance;
 

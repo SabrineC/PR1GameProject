@@ -21,7 +21,7 @@ public class PlayerAttributes : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    public void IncreaseHealth(int value) //This code increases the health of the player and then updating the healthbar.
+    public void IncreaseHealth(int value) // This code increases the health of the player and then updating the healthbar.
     {
         currentHealth += value;
         healthBar.SetHealth(currentHealth);
