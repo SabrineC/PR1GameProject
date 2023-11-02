@@ -35,7 +35,7 @@ public class StoryText : MonoBehaviour
         }
 
     }
-    void startScript() // This code starts the scence.
+    void startScript() // This code starts the scene.
     {
         Index = 0;
         StartCoroutine(TypeLine());

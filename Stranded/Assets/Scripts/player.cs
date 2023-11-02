@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 
-public class player : MonoBehaviour // If player is changed to Player the game will game.
+public class player : MonoBehaviour // If player is changed to Player the game will not work.
 {
     public static player Instance;
 
@@ -17,7 +17,7 @@ public class player : MonoBehaviour // If player is changed to Player the game w
     }
      
      
-    public void IncreaseHealth(int value) //This code Increases The health of the player by the value.
+    public void IncreaseHealth(int value) // This code increases the health of the player by the value.
     {
         playerHealth.IncreaseHealth(value);
         
