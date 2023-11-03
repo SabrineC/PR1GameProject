@@ -34,7 +34,7 @@ public class InventoryManager : MonoBehaviour
             Destroy(item.gameObject);
         }
 
-        foreach (var item in Items) // This code grabbes the images and names of each item and puts it in the correct place.
+        foreach (var item in Items) // This code grabs the images and names of each item and puts it in the correct place.
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
             var itemName = obj.transform.Find("ItemName").GetComponent<TextMeshProUGUI>();
