@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
 
 
 
-    void Update ()  // This code checks if the user has pressed the 'Esc' Key on the keyboard, if the user has then the function 'pasuedGame' is played and if not then the game will resume.
+    void Update ()  // This code checks if the user has pressed the 'Esc' Key on the keyboard, if the user has then the function 'pausedGame' is played and if not then the game will resume.
     {
         if (Input.GetKeyDown(KeyCode.Escape))
        {
