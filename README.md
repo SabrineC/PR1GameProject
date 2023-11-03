@@ -11,6 +11,8 @@ Attack: F
 
 Pick up/Use item: Left Mouse Click
 
+Pause Game: Esc
+
 ## Development Team
 
 Asadullah Anfishi
